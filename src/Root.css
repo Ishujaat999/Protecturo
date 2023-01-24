@@ -1,0 +1,166 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box !important;
+  text-decoration: none !important;
+  list-style-type: none !important;
+}
+
+/* === Root === */
+:root {
+  /* === Font Size === */
+  --fs_xsm: 14px;
+  --fs_sm: 16px;
+  --fs_md: 18px;
+  --fs_lg: 20px;
+  --fs_xl: 22px;
+  --fs_xxl: 24px;
+  --fs_2xl: 45px;
+  --fs_3xl: 56px;
+  --fs_4xl: 65px;
+  --fs_5xl: 85px;
+  /* === Font Weight === */
+  --fw_medium: 500;
+  /* === Font Family === */
+  --ff_grotesk: "Space Grotesk", sans-serif;
+  /* === Text Color === */
+  --tc_primary: #a6a6a6;
+  --tc_secondary: #e1e1e1;
+  --tc_danger: #841002;
+  --tc_body: #f2f2f2;
+  --tc_info: #878787;
+  /* === Background Color === */
+  --bg_primary: #a6a6a6;
+  --bg_secondary: #e1e1e1;
+  --bg_danger: #841002;
+  --bg_body: #f2f2f2;
+  --bg_info: #878787;
+}
+/* === Font Size === */
+.fs_xsm {
+  font-size: var(--fs_xsm);
+}
+.fs_sm {
+  font-size: var(--fs_sm);
+}
+.fs_md {
+  font-size: var(--fs_md);
+}
+.fs_lg {
+  font-size: var(--fs_lg);
+}
+.fs_xl {
+  font-size: var(--fs_xl);
+}
+.fs_xxl {
+  font-size: var(--fs_xxl);
+}
+.fs_2xl {
+  font-size: var(--fs_2xl);
+}
+.fs_3xl {
+  font-size: var(--fs_3xl);
+}
+.fs_4xl {
+  font-size: var(--fs_4xl);
+}
+.fs_5xl {
+  font-size: var(--fs_5xl);
+}
+
+/* === Font Weight === */
+.fw_medium {
+  font-weight: var(--fw_medium);
+}
+/* === Font Family === */
+.ff_grotesk {
+  font-family: var(--ff_grotesk);
+}
+
+/* === Text Color === */
+.tc_primary {
+  color: var(--bg_primary);
+}
+
+.tc_secondary {
+  color: var(--bg_secondary);
+}
+
+.tc_info {
+  color: var(--bg_info);
+}
+
+.tc_body {
+  color: var(--bg_body);
+}
+.tc_danger {
+  color: var(--bg_danger);
+}
+
+/* === Background Color === */
+.bg_primary {
+  background-color: var(--bg_primary);
+}
+
+.bg_secondary {
+  background-color: var(--bg_secondary);
+}
+
+.bg_danger {
+  background-color: var(--bg_danger);
+}
+
+.bg_info {
+  background-color: var(--bg_info);
+}
+
+.bg_body {
+  background-color: var(--bg_body);
+}
+
+@media (min-width: 992px) {
+  :root {
+    /* === Font Size === */
+    --fs_xsm: 14px;
+    --fs_sm: 16px;
+    --fs_md: 18px;
+    --fs_lg: 20px;
+    --fs_xl: 22px;
+    --fs_xxl: 24px;
+    --fs_2xl: 45px;
+    --fs_3xl: 56px;
+    --fs_4xl: 65px;
+    --fs_5xl: 85px;
+  }
+}
+@media (min-width: 1200px) {
+  :root {
+    /* === Font Size === */
+    --fs_xsm: 14px;
+    --fs_sm: 16px;
+    --fs_md: 18px;
+    --fs_lg: 20px;
+    --fs_xl: 22px;
+    --fs_xxl: 24px;
+    --fs_2xl: 45px;
+    --fs_3xl: 56px;
+    --fs_4xl: 65px;
+    --fs_5xl: 85px;
+  }
+}
+
+@media (min-width: 1400px) {
+  :root {
+    /* === Font Size === */
+    --fs_xsm: 14px;
+    --fs_sm: 16px;
+    --fs_md: 18px;
+    --fs_lg: 20px;
+    --fs_xl: 22px;
+    --fs_xxl: 24px;
+    --fs_2xl: 45px;
+    --fs_3xl: 56px;
+    --fs_4xl: 65px;
+    --fs_5xl: 85px;
+  }
+}
