@@ -121,7 +121,6 @@
 @media (min-width: 992px) {
   :root {
     /* === Font Size === */
-    --fs_xsm: 14px;
     --fs_sm: 16px;
     --fs_md: 18px;
     --fs_lg: 20px;
@@ -136,7 +135,6 @@
 @media (min-width: 1200px) {
   :root {
     /* === Font Size === */
-    --fs_xsm: 14px;
     --fs_sm: 16px;
     --fs_md: 18px;
     --fs_lg: 20px;
@@ -152,7 +150,6 @@
 @media (min-width: 1400px) {
   :root {
     /* === Font Size === */
-    --fs_xsm: 14px;
     --fs_sm: 16px;
     --fs_md: 18px;
     --fs_lg: 20px;
