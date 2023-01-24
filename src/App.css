@@ -85,3 +85,12 @@
   z-index: 999 !important;
   transition: ease-in-out 500ms;
 }
+
+.hero-slider-card {
+  background-color: #282c34;
+}
+
+.z_index_10 {
+  /* width: 65%; */
+  z-index: 10;
+}
