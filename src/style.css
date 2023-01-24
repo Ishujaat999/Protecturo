@@ -1,0 +1,72 @@
+.max_width_300 {
+    max-width: 300px;
+}
+
+.max_width_250 {
+    max-width: 250px;
+}
+
+.max_width_354 {
+    max-width: 354px;
+}
+
+.gap_100 {
+    gap: 100px;
+}
+
+.mt_m_1 {
+    margin-top: -1px;
+}
+
+.mL_m {
+    margin-left: -169px;
+}
+
+@media (max-width:576px) {
+    :root {
+        --fs_4xl: 24px;
+        --fs_xl: 15px;
+    }
+}
+
+@media (min-width:576px) {
+    :root {
+        --fs_4xl: 43px;
+        --fs_xl: 17px;
+    }
+}
+
+@media (min-width:768px) {
+    :root {
+        --fs_4xl: 56px;
+    }
+}
+
+@media (min-width:992px) {
+    :root {
+        --fs_4xl: 45px;
+        --fs_sm: 14px;
+        --fs_xl: 16px;
+    }
+}
+
+@media (min-width:1200px) {
+    :root {
+        --fs_4xl: 54px;
+    }
+}
+
+@media (min-width: 1400px) {
+    :root {
+        /* === Font Size === */
+        --fs_sm: 16px;
+        --fs_md: 18px;
+        --fs_lg: 20px;
+        --fs_xl: 22px;
+        --fs_xxl: 24px;
+        --fs_2xl: 45px;
+        --fs_3xl: 56px;
+        --fs_4xl: 62px;
+        --fs_5xl: 85px;
+    }
+}
