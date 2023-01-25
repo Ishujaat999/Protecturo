@@ -51,6 +51,7 @@ const Header = () => {
     infinite: true,
     autoplay: true,
     arrows: false,
+    fade: true,
     speed: 500,
     slidesToShow: 1,
     slidesToScroll: 1,
@@ -81,22 +82,24 @@ const Header = () => {
   };
   return (
     <>
-      <section className="d-flex min-vh-100 flex-column bg-black">
+      <section className="d-flex min-vh-100 flex-column bg-black overflow-hidden">
         <ProtecturoNav />
         <div className="flex-grow-1 py-4 d-flex align-items-center position-relative">
+          <div className="blur position-absolute start-0 top-50"></div>
+          <div className="blur position-absolute header-blur"></div>
           <Container>
             <Row className="justify-content-between position-relative">
               <div className="col-lg-7 col-12">
-                <h1 className="tc_secondary ff_gilroy fw-bold fs_5xl">
+                <h1 className="tc_secondary ff_gilroy_bold fw-bold fs_5xl">
                   A platform to secure your all digital assets.
                 </h1>
-                <p className="ff_gilroy tc_info">
+                <p className="ff_gilroy_Regular tc_info">
                   Ut enim ad minim veniam, quis nostrud exercitation ullamco
                   laboris nisi ut aliquip ex ea commodo consequat. Duis aute
                   irure dolor in reprehenderit in voluptate velit esse cillum
                   dolore eu fugiat nulla pariatur.
                 </p>
-                <div className="w-75 position-absolute d-none d-lg-block  ">
+                <div className="w-80 position-lg-absolute">
                   <div className="pt-4 pb-3">
                     <img className="prevArrow" src={west} alt="" />
                     <img className="ms-3 nextArrow" src={east} alt="" />
@@ -104,7 +107,7 @@ const Header = () => {
                   <Slider {...setting}>
                     <div className="px-2 h-100 ">
                       <div className="hero-slider-card">
-                        <p className=" py-4 ff_gilroy text-white  fs_lg   ps-3 tc_primary pe-5">
+                        <p className=" py-4 ff_gilroy_Regular text-white  fs_lg   ps-3 tc_primary pe-5">
                           Secure payments
                         </p>
                         <div className="d-flex justify-content-end w-100 pe-3 pb-4">
@@ -180,86 +183,6 @@ const Header = () => {
                     </div>
                   </Slider>
                 </div>
-                <div className="  d-block d-lg-none ">
-                  <Slider {...setting}>
-                    <div className="px-2 ">
-                      <div className="hero-slider-card">
-                        <p className="text-center pt-4 ff_inter text-white fw_bold fs_lg mb-2">
-                          Esther Howard
-                        </p>
-                        <p className="text-center  text-white opacity_06 pb-4">
-                          Marketing Coordinator
-                        </p>
-                      </div>
-                    </div>
-                    <div className=" px-2">
-                      <div className="hero-slider-card">
-                        {/* <img className="w-100" src={esther_2} alt="esther_1" /> */}
-                        <p className="text-center pt-4 ff_inter text-white fw_bold fs_lg mb-2">
-                          Esther Howard
-                        </p>
-                        <p className="text-center ff_inter fw_regular text-white opacity_06 pb-4">
-                          Marketing Coordinator
-                        </p>
-                      </div>
-                    </div>
-                    <div className=" px-2 ">
-                      <div className="hero-slider-card">
-                        {/* <img className="w-100" src={esther_3} alt="esther_1" /> */}
-                        <p className="text-center pt-4 ff_inter text-white fw_bold fs_lg mb-2">
-                          Esther Howard
-                        </p>
-                        <p className="text-center ff_inter fw_regular text-white opacity_06 pb-4">
-                          Marketing Coordinator
-                        </p>
-                      </div>
-                    </div>
-                    <div className="px-2 ">
-                      <div className="hero-slider-card">
-                        {/* <img className="w-100" src={esther_3} alt="esther_1" /> */}
-                        <p className="text-center pt-4 ff_inter text-white fw_bold fs_lg mb-2">
-                          Esther Howard
-                        </p>
-                        <p className="text-center ff_inter fw_regular text-white opacity_06 pb-4">
-                          Marketing Coordinator
-                        </p>
-                      </div>
-                    </div>
-                    <div className="px-2  ">
-                      <div className="hero-slider-card">
-                        {/* <img className="w-100" src={esther_3} alt="esther_1" /> */}
-                        <p className="text-center pt-4 ff_inter text-white fw_bold fs_lg mb-2">
-                          Esther Howard
-                        </p>
-                        <p className="text-center ff_inter fw_regular text-white opacity_06 pb-4">
-                          Marketing Coordinator
-                        </p>
-                      </div>
-                    </div>
-                    <div className=" px-2 ">
-                      <div className="hero-slider-card">
-                        {/* <img className="w-100" src={esther_3} alt="esther_1" /> */}
-                        <p className="text-center pt-4 ff_inter text-white fw_bold fs_lg mb-2">
-                          Esther Howard
-                        </p>
-                        <p className="text-center ff_inter fw_regular text-white opacity_06 pb-4">
-                          Marketing Coordinator
-                        </p>
-                      </div>
-                    </div>
-                    <div className=" px-2 ">
-                      <div className="hero-slider-card">
-                        {/* <img className="w-100" src={esther_3} alt="esther_1" /> */}
-                        <p className="text-center pt-4 ff_inter text-white fw_bold fs_lg mb-2">
-                          Esther Howard
-                        </p>
-                        <p className="text-center ff_inter fw_regular text-white opacity_06 pb-4">
-                          Marketing Coordinator
-                        </p>
-                      </div>
-                    </div>
-                  </Slider>
-                </div>
               </div>
               <div className="col-lg-4 col-10 mx-auto ">
                 <div className="w-100 d-flex  align-items-center justify-content-end position-relative z_index_10">
@@ -272,7 +195,7 @@ const Header = () => {
                           src={mobileslider}
                           alt=""
                         />
-                        <p className="text-center text-linear-red ff_gilroy pt-5">
+                        <p className="text-center text-linear-red ff_gilroy_SemiBold pt-5">
                           Satisfaction
                         </p>
                         <p className="text-center text-white px-5 ff_gilroy">
@@ -288,8 +211,8 @@ const Header = () => {
                             alt=""
                           />
                         </div>
-                        <p className="text-center text-linear-red ff_gilroy pt-5">
-                          Satisfaction
+                        <p className="text-center text-linear-red ff_gilroy_SemiBold pt-5">
+                          Stay connected
                         </p>
                         <p className="text-center text-white px-5 ff_gilroy">
                           98% of our valued customers are secured from cyber
@@ -302,8 +225,8 @@ const Header = () => {
                           src={mobileslider}
                           alt=""
                         />
-                        <p className="text-center text-linear-red ff_gilroy pt-5">
-                          Satisfaction
+                        <p className="text-center text-linear-red ff_gilroy_SemiBold pt-5">
+                          Security
                         </p>
                         <p className="text-center text-white px-5 ff_gilroy">
                           98% of our valued customers are secured from cyber
