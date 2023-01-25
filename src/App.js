@@ -15,7 +15,6 @@ import Global from "./components/Global";
 function App() {
   return (
     <>
-      {/* <Header /> */}
       <Header />
       {/* <SliderDummy /> */}
       <OurBenefits />
