@@ -10,12 +10,8 @@ function Faq() {
         <Container>
           <Row className="flex-column-reverse align-items-center flex-lg-row justify-content-between">
             <Col lg="5" xxl="5">
-              <div>
-                <img
-                  className="position-absolute start-0 bottom-0"
-                  src={FaqsImg}
-                  alt="FaqsImg"
-                />
+              <div className="position-absolute start-0 bottom-0">
+                <img src={FaqsImg} alt="FaqsImg" />
               </div>
             </Col>
             <Col lg="6" xxl="7">

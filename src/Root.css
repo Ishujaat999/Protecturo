@@ -173,7 +173,7 @@
   background-color: var(--bg_body);
 }
 
-@media (min-width:992px) {
+@media (min-width: 992px) {
   :root {
     /* === Font Size === */
     --fs_sm: 16px;
@@ -183,7 +183,7 @@
     --fs_xxl: 24px;
     --fs_2xl: 45px;
     --fs_3xl: 50px;
-    --fs_4xl: 62px;
+    --fs_4xl: 36px;
     --fs_5xl: 65px;
   }
 }
