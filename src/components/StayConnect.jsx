@@ -9,21 +9,21 @@ const StayConnect = () => {
         <div className="my_container pb-5">
           <div className="bg_danger stay-sec rounded-4 p-5 position-relative overflow-hidden mb-5">
             <img
-              className="position-absolute top-0 end-0"
+              className="position-absolute top-0 end-0 z_index_1"
               src={StayVector}
               alt="StayVector"
             />
-            <h2 className="ff_gilroy fw-bold fs_4xl text-white text-center pt-3">
+            <h2 className="ff_gilroy fw-bold fs_4xl text-white text-center pt-3 z_index_2 position-relative">
               Stay connect wherever you go
             </h2>
             <p
               className="ff_gilroy fw_medium fs_xl tc_secondary
-             text-center Stay-mx-width mx-auto mt-3 pb-4"
+             text-center Stay-mx-width mx-auto mt-3 pb-4 z_index_2 position-relative"
             >
               Buy an international eSIM card, stay connected wherever you go,
               and avoid expensive phone bills.
             </p>
-            <div className="text-center my-3">
+            <div className="text-center my-3 z_index_2 position-relative">
               <button
                 className="ff_Montserrat fw_medium fs_sm
                bg-black border-0 text-white  rounded-pill my-button"
@@ -32,7 +32,7 @@ const StayConnect = () => {
               </button>
             </div>
             <img
-              className="position-absolute bottom-0 start-0"
+              className="position-absolute bottom-0 start-0 z_index_1"
               src={StayVectorStart}
               alt="StayVectorStart"
             />
