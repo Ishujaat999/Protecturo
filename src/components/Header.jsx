@@ -84,6 +84,7 @@ const Header = () => {
       <section className="d-flex min-vh-100 flex-column bg-black">
         <ProtecturoNav />
         <div className="flex-grow-1 py-4 d-flex align-items-center position-relative">
+          <div className="blur position-absolute start-0 top-50"></div>
           <Container>
             <Row className="justify-content-between position-relative">
               <div className="col-lg-7 col-12">
@@ -96,7 +97,7 @@ const Header = () => {
                   irure dolor in reprehenderit in voluptate velit esse cillum
                   dolore eu fugiat nulla pariatur.
                 </p>
-                <div className="w-75 position-absolute d-none d-lg-block  ">
+                <div className="w-80 position-absolute d-none d-lg-block  ">
                   <div className="pt-4 pb-3">
                     <img className="prevArrow" src={west} alt="" />
                     <img className="ms-3 nextArrow" src={east} alt="" />
@@ -261,7 +262,7 @@ const Header = () => {
                   </Slider>
                 </div>
               </div>
-              <div className="col-lg-4 col-10 mx-auto ">
+              <div className="col-lg-4 col-10 h-100 ">
                 <div className="w-100 d-flex  align-items-center justify-content-end position-relative z_index_10">
                   <img className="w-100 " src={mobile} alt="" />
                   <div className="position-absolute w-100 top-0 h-100  start-0">

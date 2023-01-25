@@ -212,3 +212,15 @@
   text-fill-color: transparent;
   font-size: 36px;
 }
+
+.blur {
+  background: linear-gradient(44.01deg, #D41700 -6.45%, #7F0011 136.55%);
+  opacity: 0.45;
+  filter: blur(150px);
+  width: 550px;
+  height: 550px;
+}
+
+.w-80 {
+  width: 80%;
+}
