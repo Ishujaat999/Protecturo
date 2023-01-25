@@ -59,73 +59,95 @@
   font-family: "Gilroy-Regular";
   src: url(./assets/font/gilroy/Gilroy-Regular.ttf);
 }
+
 /* === Font Size === */
 .fs_xsm {
   font-size: var(--fs_xsm);
 }
+
 .fs_sm {
   font-size: var(--fs_sm);
 }
+
 .fs_md {
   font-size: var(--fs_md);
 }
+
 .fs_lg {
   font-size: var(--fs_lg);
 }
+
 .fs_xl {
   font-size: var(--fs_xl);
 }
+
 .fs_xxl {
   font-size: var(--fs_xxl);
 }
+
 .fs_2xl {
   font-size: var(--fs_2xl);
 }
+
 .fs_3xl {
   font-size: var(--fs_3xl);
 }
+
 .fs_4xl {
   font-size: var(--fs_4xl);
 }
+
 .fs_5xl {
   font-size: var(--fs_5xl);
 }
+
 /* === Font Weight === */
 .fw_medium {
   font-weight: var(--fw_medium);
 }
+
 /* === Font Family === */
 .ff_gilroy_bold {
   font-family: "Gilroy-bold";
 }
+
 .ff_gilroy_SemiBold {
   font-family: "Gilroy-SemiBold";
 }
+
 .ff_gilroy_Medium {
   font-family: "Gilroy-Medium";
 }
+
 .ff_gilroy_Regular {
   font-family: "Gilroy-Regular";
 }
+
 .ff_Montserrat {
   font-family: var(--ff_Montserrat);
 }
+
 /* === Text Color === */
 .tc_primary {
   color: var(--tc_primary);
 }
+
 .tc_secondary {
   color: var(--tc_secondary);
 }
+
 .tc_info {
   color: var(--tc_info);
 }
+
 .tc_body {
   color: var(--tc_body);
 }
+
 .tc_danger {
   color: var(--tc_danger);
 }
+
 .tc_warning {
   color: var(--tc_warning);
 }
@@ -151,16 +173,31 @@
   background-color: var(--bg_body);
 }
 
-@media (min-width: 1200px) {
+@media (min-width:992px) {
   :root {
     /* === Font Size === */
     --fs_sm: 16px;
-    --fs_md: 18px;
+    --fs_md: 14px;
     --fs_lg: 20px;
     --fs_xl: 22px;
     --fs_xxl: 24px;
     --fs_2xl: 45px;
-    --fs_3xl: 56px;
+    --fs_3xl: 50px;
+    --fs_4xl: 62px;
+    --fs_5xl: 65px;
+  }
+}
+
+@media (min-width: 1200px) {
+  :root {
+    /* === Font Size === */
+    --fs_sm: 16px;
+    --fs_md: 16px;
+    --fs_lg: 20px;
+    --fs_xl: 22px;
+    --fs_xxl: 24px;
+    --fs_2xl: 45px;
+    --fs_3xl: 50px;
     --fs_4xl: 62px;
     --fs_5xl: 65px;
   }
