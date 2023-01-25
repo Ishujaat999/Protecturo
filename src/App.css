@@ -32,7 +32,65 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+}
+
+.nav_hide {
+  position: fixed;
+  width: 100%;
+  background-color: #020056;
+  top: 0;
+  z-index: 999 !important;
+  left: -100%;
+  transition: ease-in-out 500ms;
+}
+
+.show_aside {
+  position: fixed;
+  max-width: 400px;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: #020056;
+  top: 0;
+  right: 0;
+  z-index: 999 !important;
+  transition: ease-in-out 500ms;
+}
+
+.show_aside::-webkit-scrollbar {
+  display: none;
+}
+
+.aside_hide {
+  position: fixed;
+  max-width: 400px;
+  width: 100%;
+  background-color: #020056;
+  top: 0;
+  z-index: 999 !important;
+  right: -100%;
+  transition: ease-in-out 500ms;
+}
+
+.show_nav {
+  position: fixed;
+  width: 100%;
+  background-color: #020056;
+  top: 0;
+  left: 0;
+  z-index: 999 !important;
+  transition: ease-in-out 500ms;
+}
+
+.hero-slider-card {
+  background-color: #282c34;
+}
+
+.z_index_10 {
+  /* width: 65%; */
+  z-index: 10;
 }
