@@ -13,14 +13,25 @@ import Features from "./components/Features";
 import StayConnect from "./components/StayConnect";
 import Global from "./components/Global";
 import Footer from "./components/Footer";
+import Preloader from "./components/Preloader";
+
 import SliderDummy from "./components/SliderDummy";
 // import OurStandards from "./components/OurStandards";
 import Faq from "./components/Faq";
 import Connectivity from "./components/Connectivity";
 import OurProducts from "./components/OurProducts";
+import { useEffect, useState } from "react";
 function App() {
+  const [loading, setLoading] = useState(true);
+  useEffect(() => {
+    setTimeout(() => {
+      setLoading(false);
+      document.body.classList.remove("fix-screen");
+    }, 2400);
+  }, []);
   return (
     <>
+      {loading && <Preloader />}
       <Header />
       <OurBenefits />
       <OurStandards />
@@ -29,9 +40,9 @@ function App() {
       <OurProducts />
       <Features />
       <StayConnect />
+      <Faq />
       <Global />
       <Footer />
-      <Faq />
     </>
   );
 }

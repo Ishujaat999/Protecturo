@@ -26,7 +26,7 @@ const ProtecturoNav = () => {
             <ul className="ps-0 mb-0 list-unstyled d-none d-lg-flex gap-4 align-items-center">
               <li>
                 <a
-                  className="d-inline-block ff_gilroy_SemiBold tc_info nav_links "
+                  className="d-inline-block fs_md ff_gilroy_SemiBold tc_info nav_links "
                   href="#Benefits"
                 >
                   Benefits
@@ -34,7 +34,7 @@ const ProtecturoNav = () => {
               </li>
               <li>
                 <a
-                  className="d-inline-block ff_gilroy_SemiBold tc_info nav_links "
+                  className="d-inline-block fs_md ff_gilroy_SemiBold tc_info nav_links "
                   href="#Privacy"
                 >
                   Privacy
@@ -42,7 +42,7 @@ const ProtecturoNav = () => {
               </li>
               <li>
                 <a
-                  className="d-inline-block ff_gilroy_SemiBold tc_info nav_links "
+                  className="d-inline-block fs_md ff_gilroy_SemiBold tc_info nav_links "
                   href="#Products"
                 >
                   Products
@@ -50,7 +50,7 @@ const ProtecturoNav = () => {
               </li>
               <li>
                 <a
-                  className="d-inline-block ff_gilroy_SemiBold tc_info nav_links "
+                  className="d-inline-block fs_md ff_gilroy_SemiBold tc_info nav_links "
                   href="#App"
                 >
                   App
@@ -58,7 +58,7 @@ const ProtecturoNav = () => {
               </li>
               <li>
                 <a
-                  className="d-inline-block ff_gilroy_SemiBold tc_info nav_links "
+                  className="d-inline-block fs_md ff_gilroy_SemiBold tc_info nav_links "
                   href="#Features"
                 >
                   Features
@@ -66,7 +66,7 @@ const ProtecturoNav = () => {
               </li>
               <li>
                 <a
-                  className="d-inline-block ff_gilroy_SemiBold tc_info nav_links "
+                  className="d-inline-block fs_md ff_gilroy_SemiBold tc_info nav_links "
                   href="#FAQs"
                 >
                   FAQs
@@ -95,42 +95,50 @@ const ProtecturoNav = () => {
               <ul className="ps-0 mb-0 list-unstyled d-flex flex-column gap-4 align-items-center">
                 <li onClick={() => setnav(false)}>
                   <a
-                    className="d-inline-block fs_md fw_regular nav_links text-white ff_inter"
-                    href="#Physique"
+                    className="d-inline-block fs_md fw_regular nav_links text-white "
+                    href="#Benefits"
                   >
-                    Physique
+                    Benefits
                   </a>
                 </li>
                 <li onClick={() => setnav(false)}>
                   <a
                     className="d-inline-block fs_md fw_regular nav_links text-white ff_inter"
-                    href="#Mind"
+                    href="#Privacy"
                   >
-                    Mind
+                    Privacy
                   </a>
                 </li>
                 <li onClick={() => setnav(false)}>
                   <a
                     className="d-inline-block fs_md fw_regular nav_links text-white ff_inter"
-                    href="#Spirit"
+                    href="#Products"
                   >
-                    Spirit
+                    Products
                   </a>
                 </li>
                 <li onClick={() => setnav(false)}>
                   <a
                     className="d-inline-block fs_md fw_regular nav_links text-white ff_inter"
-                    href="#Recovery"
+                    href="#App"
                   >
-                    Recovery
+                    App
                   </a>
                 </li>
                 <li onClick={() => setnav(false)}>
                   <a
                     className="d-inline-block fs_md fw_regular nav_links text-white ff_inter"
-                    href="#Nutrition"
+                    href="#Features"
                   >
-                    Nutrition
+                    Features
+                  </a>
+                </li>
+                <li onClick={() => setnav(false)}>
+                  <a
+                    className="d-inline-block fs_md fw_regular nav_links text-white ff_inter"
+                    href="#FAQs"
+                  >
+                    FAQs
                   </a>
                 </li>
               </ul>

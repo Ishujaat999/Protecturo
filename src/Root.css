@@ -16,10 +16,10 @@
   --fs_md: 18px;
   --fs_lg: 20px;
   --fs_xl: 22px;
-  --fs_xxl: 24px;
-  --fs_2xl: 45px;
-  --fs_3xl: 56px;
-  --fs_4xl: 65px;
+  --fs_xxl: 18px;
+  --fs_2xl: 35px;
+  --fs_3xl: 35px;
+  --fs_4xl: 35px;
   --fs_5xl: 50px;
   /* === Font Weight === */
   --fw_medium: 500;
@@ -180,11 +180,11 @@
     --fs_md: 14px;
     --fs_lg: 20px;
     --fs_xl: 22px;
-    --fs_xxl: 24px;
+    --fs_xxl: 18px;
     --fs_2xl: 45px;
-    --fs_3xl: 50px;
-    --fs_4xl: 36px;
-    --fs_5xl: 65px;
+    --fs_3xl: 45px;
+    --fs_4xl: 45px;
+    --fs_5xl: 55px;
   }
 }
 
@@ -195,10 +195,10 @@
     --fs_md: 16px;
     --fs_lg: 20px;
     --fs_xl: 22px;
-    --fs_xxl: 24px;
-    --fs_2xl: 45px;
+    --fs_xxl: 18px;
+    --fs_2xl: 40px;
     --fs_3xl: 50px;
-    --fs_4xl: 62px;
+    --fs_4xl: 52px;
     --fs_5xl: 65px;
   }
 }
