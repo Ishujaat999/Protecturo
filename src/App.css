@@ -221,6 +221,17 @@
   height: 550px;
 }
 
-.w-80 {
-  width: 80%;
+.header-blur {
+  top: -25%;
+  right: -15%;
+}
+
+@media (min-width: 1000px) {
+  .position-lg-absolute {
+    position: absolute;
+  }
+
+  .w-80 {
+    width: 75%;
+  }
 }
