@@ -93,7 +93,7 @@ const Header = () => {
                 <h1 className="tc_secondary ff_gilroy_bold fw-bold fs_5xl">
                   A platform to secure your all digital assets.
                 </h1>
-                <p className="ff_gilroy_Regular tc_info">
+                <p className="ff_gilroy_Regular tc_info w-75">
                   Ut enim ad minim veniam, quis nostrud exercitation ullamco
                   laboris nisi ut aliquip ex ea commodo consequat. Duis aute
                   irure dolor in reprehenderit in voluptate velit esse cillum
@@ -184,7 +184,7 @@ const Header = () => {
                   </Slider>
                 </div>
               </div>
-              <div className="col-lg-4 col-10 mx-auto ">
+              <div className="col-lg-4 col-10 mx_auto ">
                 <div className="w-100 d-flex  align-items-center justify-content-end position-relative z_index_10">
                   <img className="w-100 " src={mobile} alt="" />
                   <div className="position-absolute w-100 top-0 h-100  start-0">
