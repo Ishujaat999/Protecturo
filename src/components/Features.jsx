@@ -5,9 +5,9 @@ const Features = () => {
   return (
     <>
       <section className="pb-5">
-        <div className="my_container pb-5">
-          <h3 className="ff_gilroy fw-bold fs_xxl tc_danger">Features</h3>
-          <h2 className="ff_gilroy fw-bold fs_4xl text-light InClass-mx-width">
+        <Container className="pb-5">
+          <h3 className="ff_gilroy_bold fw-bold fs_xxl tc_danger">Features</h3>
+          <h2 className="ff_gilroy_bold fw-bold fs_4xl text-light InClass-mx-width">
             Best-in-class Cyber safety for commercial and personal.
           </h2>
 
@@ -26,11 +26,11 @@ const Features = () => {
                     <img src={value.Img} alt="yourData" />
                     <div className=" p-3">
                       <div className="d-flex justify-content-between">
-                        <h1 className="ff_gilroy fs_xxl fw-semibold tc_primary">
+                        <h1 className="ff_gilroy_SemiBold fs_xxl fw-semibold tc_primary">
                           {value.heading}
                         </h1>
                       </div>
-                      <p className="ff_gilroy fw_medium fs_sm tc_info">
+                      <p className="ff_gilroy_Medium fw_medium fs_sm tc_info">
                         {value.title}
                       </p>
                     </div>
@@ -39,7 +39,7 @@ const Features = () => {
               );
             })}
           </Row>
-        </div>
+        </Container>
       </section>
     </>
   );

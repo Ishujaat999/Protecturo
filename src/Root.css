@@ -31,6 +31,7 @@
   --tc_danger: #841002;
   --tc_body: #f2f2f2;
   --tc_info: #878787;
+  --tc_warning: #c51304;
   /* === Background Color === */
   --bg_primary: #a6a6a6;
   --bg_secondary: #e1e1e1;
@@ -42,121 +43,91 @@
 @font-face {
   font-family: "Gilroy-bold";
   src: url(./assets/font/gilroy/Gilroy-Bold.ttf);
-  /* src: url(./assets/font/gilroy/Gilroy-SemiBold.ttf);
-  src: url(./assets/font/gilroy/Gilroy-Medium.ttf);
-  src: url(./assets/font/gilroy/Gilroy-Regular.ttf); */
 }
 
 @font-face {
   font-family: "Gilroy-SemiBold";
-  /* src: url(./assets/font/gilroy/Gilroy-Bold.ttf); */
   src: url(./assets/font/gilroy/Gilroy-SemiBold.ttf);
-  /* src: url(./assets/font/gilroy/Gilroy-Medium.ttf);
-  src: url(./assets/font/gilroy/Gilroy-Regular.ttf); */
 }
 
 @font-face {
   font-family: "Gilroy-Medium";
-  /* src: url(./assets/font/gilroy/Gilroy-Bold.ttf);
-  src: url(./assets/font/gilroy/Gilroy-SemiBold.ttf); */
   src: url(./assets/font/gilroy/Gilroy-Medium.ttf);
-  /* src: url(./assets/font/gilroy/Gilroy-Regular.ttf); */
 }
 
 @font-face {
   font-family: "Gilroy-Regular";
-  /* src: url(./assets/font/gilroy/Gilroy-Bold.ttf); */
-  /* src: url(./assets/font/gilroy/Gilroy-SemiBold.ttf); */
-  /* src: url(./assets/font/gilroy/Gilroy-Medium.ttf); */
   src: url(./assets/font/gilroy/Gilroy-Regular.ttf);
 }
-
 /* === Font Size === */
 .fs_xsm {
   font-size: var(--fs_xsm);
 }
-
 .fs_sm {
   font-size: var(--fs_sm);
 }
-
 .fs_md {
   font-size: var(--fs_md);
 }
-
 .fs_lg {
   font-size: var(--fs_lg);
 }
-
 .fs_xl {
   font-size: var(--fs_xl);
 }
-
 .fs_xxl {
   font-size: var(--fs_xxl);
 }
-
 .fs_2xl {
   font-size: var(--fs_2xl);
 }
-
 .fs_3xl {
   font-size: var(--fs_3xl);
 }
-
 .fs_4xl {
   font-size: var(--fs_4xl);
 }
-
 .fs_5xl {
   font-size: var(--fs_5xl);
 }
-
 /* === Font Weight === */
 .fw_medium {
   font-weight: var(--fw_medium);
 }
-
 /* === Font Family === */
 .ff_gilroy_bold {
   font-family: "Gilroy-bold";
 }
-
-.ff_gilroy_Medium {
-  font-family: "Gilroy-Medium";
-}
-
 .ff_gilroy_SemiBold {
   font-family: "Gilroy-SemiBold";
 }
-
+.ff_gilroy_Medium {
+  font-family: "Gilroy-Medium";
+}
 .ff_gilroy_Regular {
   font-family: "Gilroy-Regular";
 }
-
 .ff_Montserrat {
   font-family: var(--ff_Montserrat);
 }
-
 /* === Text Color === */
 .tc_primary {
   color: var(--tc_primary);
 }
-
 .tc_secondary {
   color: var(--tc_secondary);
 }
-
 .tc_info {
   color: var(--tc_info);
 }
-
 .tc_body {
   color: var(--tc_body);
 }
-
 .tc_danger {
   color: var(--tc_danger);
+}
+.tc_warning {
+  color: var(--tc_warning);
 }
 
 /* === Background Color === */
