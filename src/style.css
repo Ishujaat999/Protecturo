@@ -82,9 +82,9 @@
     transform: translateX(-50%);
 }
 
-.slick-dots li {
+/* .slick-dots li {
     border: 1px solid white;
-}
+} */
 
 @media (max-width:1199.98px) {
     .slider_parent {

@@ -21,7 +21,7 @@ function App() {
       {/* <SliderDummy /> */}
       <OurBenefits />
       <OurStandards />
-      <OurBenefits />
+      {/* <OurBenefits /> */}
       <Features />
       <StayConnect />
       <Global />
