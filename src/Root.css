@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap");
+@import url("https://fonts.cdnfonts.com/css/gilroy-bold");
 * {
   padding: 0;
   margin: 0;
@@ -22,7 +24,9 @@
   /* === Font Weight === */
   --fw_medium: 500;
   /* === Font Family === */
-  --ff_grotesk: "Space Grotesk", sans-serif;
+  --ff_glory: "Glory", sans-serif;
+  --ff_Montserrat: "Montserrat", sans-serif;
+
   /* === Text Color === */
   --tc_primary: #a6a6a6;
   --tc_secondary: #e1e1e1;
@@ -73,28 +77,32 @@
   font-weight: var(--fw_medium);
 }
 /* === Font Family === */
-.ff_grotesk {
-  font-family: var(--ff_grotesk);
+.ff_glory {
+  font-family: var(--ff_glory);
+}
+.ff_Montserrat {
+  font-family: var(--ff_Montserrat);
 }
 
 /* === Text Color === */
 .tc_primary {
-  color: var(--bg_primary);
+  color: var(--tc_primary);
 }
 
 .tc_secondary {
-  color: var(--bg_secondary);
+  color: var(--tc_secondary);
 }
 
 .tc_info {
-  color: var(--bg_info);
+  color: var(--tc_info);
 }
 
 .tc_body {
-  color: var(--bg_body);
+  color: var(--tc_body);
 }
+
 .tc_danger {
-  color: var(--bg_danger);
+  color: var(--tc_danger);
 }
 
 /* === Background Color === */
