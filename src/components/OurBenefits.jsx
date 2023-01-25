@@ -1,18 +1,27 @@
 import React from "react";
 import { Container, Col, Row } from "react-bootstrap";
 import path_14 from "../assets/images/png/path14.png";
+import SliderDummy from "./SliderDummy";
 const OurBenefits = () => {
   return (
     <>
       <section className=" bg-black py-5">
         <Container>
           <Row className=" align-items-center justify-content-center justify-content-lg-start">
-            <Col md="5" lg="4">
+            <Col
+              sm="7"
+              md="5"
+              lg="4"
+              className="position-relative text-center text-sm-start"
+            >
               <img
-                className=" w-100 position-relative "
+                className=" w-100 mobile_img"
                 src={path_14}
                 alt="path_14.png"
               />
+              <div className="position-absolute slider_parent">
+                <SliderDummy />
+              </div>
             </Col>
             <Col lg="7">
               <p className=" fs_xxl  fw-bold tc_danger pt-md-5 pt-lg-0 text-center text-lg-start">

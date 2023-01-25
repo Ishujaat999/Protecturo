@@ -30,6 +30,7 @@ const OurStandards = () => {
                 contracts, no credit checks and no fine prints. To protect your
                 privacy online, our data plans come with a Privacy IP address.
               </p>
+              <button >Get started</button>
             </Col>
           </Row>
         </Container>

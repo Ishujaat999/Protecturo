@@ -1,55 +1,31 @@
 import React from "react";
 import Slider from "react-slick";
-import path_4 from "../assets/images/png/path14.png";
+import { sliderData } from "./Helper";
+// import path_4 from "../assets/images/png/path14.png";
 const SliderDummy = () => {
   const settings = {
     dots: true,
+    arrows: false,
     infinite: true,
+    autoplay: false,
     speed: 500,
-    slidesToShow: 4,
+    slidesToShow: 3,
     slidesToScroll: 1,
   };
   return (
     <>
-      <div className=" container">
-        <img src={path_4} alt="path_4" className=" position-relative" />
-
+      <div className=" container pb-5">
+        <h2 className=" fw-semibold fs_sm text-center">
+          Single platform to <br /> secure your all digital assets.
+        </h2>
         <Slider {...settings}>
-          <div>
-            <div className="">
-              <h2 className=" fw-semibold fs_sm text-center">
-                Single platform to <br /> secure your all digital assets.
-              </h2>
-
-              <div className=" d-flex">
-                <div className="">
-                  <h2>50K</h2>
-                  <p>Valued customers</p>
-                </div>
-                <div className="">
-                  <h2>50K</h2>
-                  <p>Valued customers</p>
-                </div>
-                <div className="">
-                  <h2>50K</h2>
-                  <p>Valued customers</p>
-                </div>
-              </div>
+          {sliderData.map((obj, index) => (
+            <div>
+              <h2 className=" fw-bold fs_4xl tc_danger fs_sm_25">{obj.heading}</h2>
+              <p className="">{obj.para}</p>
             </div>
-          </div>
-          <div>
-            <h3>2</h3>
-          </div>
-          <div></div>
-          <div>
-            <h3>4</h3>
-          </div>
-          <div>
-            <h3>5</h3>
-          </div>
-          <div>
-            <h3>6</h3>
-          </div>
+          ))}
+          <div className=""></div>
         </Slider>
       </div>
     </>
