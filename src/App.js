@@ -13,9 +13,11 @@ import OurStandards from "./components/OurStandards";
 
 import Features from "./components/Features";
 import StayConnect from "./components/StayConnect";
+import Global from "./components/Global";
 function App() {
   return (
     <>
+      {/* <Header /> */}
       <Header />
       {/* <SliderDummy /> */}
       <OurBenefits />
@@ -23,6 +25,7 @@ function App() {
       <OurBenefits />
       <Features />
       <StayConnect />
+      <Global />
     </>
   );
 }
