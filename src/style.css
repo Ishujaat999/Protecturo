@@ -40,9 +40,15 @@
   transform: translateX(-50%);
 }
 
+<<<<<<< HEAD
 .slick-dots li {
   border: 1px solid white;
 }
+=======
+/* .slick-dots li {
+    border: 1px solid white;
+} */
+>>>>>>> 4e00d5335db365233404a6ba2f3e567b0951b747
 
 @media (max-width: 1199.98px) {
   .slider_parent {

@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { Container, Nav, Row } from "react-bootstrap";
 
 import PageLogo from "../assets/images/png/page-logo.png";
+import PrimaryBtn from "./PrimaryBtn";
 
 const ProtecturoNav = () => {
   const [nav, setnav] = useState(false);
@@ -25,43 +26,54 @@ const ProtecturoNav = () => {
             <ul className="ps-0 mb-0 list-unstyled d-none d-lg-flex gap-4 align-items-center">
               <li>
                 <a
-                  className="d-inline-block fs_md fw_regular nav_links text-white ff_inter transition"
-                  href="#Physique"
+                  className="d-inline-block ff_gilroy tc_info nav_links "
+                  href="#Benefits"
                 >
-                  Physique
+                  Benefits
                 </a>
               </li>
               <li>
                 <a
-                  className="d-inline-block fs_md fw_regular nav_links text-white ff_inter transition"
-                  href="#Mind"
+                  className="d-inline-block ff_gilroy tc_info nav_links "
+                  href="#Privacy"
                 >
-                  Mind
+                  Privacy
                 </a>
               </li>
               <li>
                 <a
-                  className="d-inline-block fs_md fw_regular nav_links text-white ff_inter transition"
-                  href="#Spirit"
+                  className="d-inline-block ff_gilroy tc_info nav_links "
+                  href="#Products"
                 >
-                  Spirit
+                  Products
                 </a>
               </li>
               <li>
                 <a
-                  className="d-inline-block fs_md fw_regular nav_links text-white ff_inter transition"
-                  href="#Recovery"
+                  className="d-inline-block ff_gilroy tc_info nav_links "
+                  href="#App"
                 >
-                  Recovery
+                  App
                 </a>
               </li>
               <li>
                 <a
-                  className="d-inline-block fs_md fw_regular nav_links text-white ff_inter transition"
-                  href="#Nutrition"
+                  className="d-inline-block ff_gilroy tc_info nav_links "
+                  href="#Features"
                 >
-                  Nutrition
+                  Features
                 </a>
+              </li>
+              <li>
+                <a
+                  className="d-inline-block ff_gilroy tc_info nav_links "
+                  href="#FAQs"
+                >
+                  FAQs
+                </a>
+              </li>
+              <li>
+                <PrimaryBtn />
               </li>
             </ul>
             <button
