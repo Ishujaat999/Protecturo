@@ -43,6 +43,72 @@
   line-height: 75px;
 }
 
+/*---------Faq----------*/
+.accordion-button:not(.collapsed) {
+  background: red !important;
+  box-shadow: none !important;
+  font-family: "Gilroy-SemiBold";
+  font-weight: 600;
+  font-size: var(--fs_md);
+  color: #ffffff !important;
+}
+
+.accordion-body {
+  background-color: transparent;
+  font-family: "Gilroy-SemiBold";
+  font-weight: 500;
+  font-size: var(--fs_xsm);
+  background-color: red;
+  color: #ffffff;
+}
+
+.accordion-button:not(.collapsed)::after {
+  background-image: url(./assets/images/svg/addition-sign.svg);
+}
+
+.accordion-button::after {
+  background-image: url(./assets/images/svg/minus-sign.svg);
+  background-repeat: no-repeat;
+}
+
+.accordion-item {
+  border: none !important;
+  background: #841002;
+  /* box-shadow: 0px 4px 100px rgba(191, 48, 48, 0.5); */
+  border-radius: 12px;
+}
+
+.accordion-button {
+  background: #232323;
+  border-radius: 12px;
+  color: #a6a6a6;
+  font-weight: 600;
+  font-family: "Gilroy-SemiBold";
+  font-size: var(--fs_md);
+  border: none;
+  box-shadow: none !important;
+}
+
+.accordion-item:first-of-type {
+  border-radius: 12px;
+}
+
+.accordion-item:first-of-type .accordion-button {
+  border-top-left-radius: none;
+  border-top-right-radius: none;
+  border-radius: 12px;
+}
+
+.accordion-item:last-of-type .accordion-button.collapsed {
+  border-bottom-right-radius: none;
+  border-bottom-left-radius: none;
+  border-radius: 12px;
+}
+
+.accordion-item:last-of-type {
+  border-radius: 12px;
+}
+
 @media (min-width: 992px) {
   .Stay-mx-width {
     max-width: 695px;
