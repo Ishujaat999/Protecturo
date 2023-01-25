@@ -13,10 +13,10 @@ const StayConnect = () => {
               src={StayVector}
               alt="StayVector"
             />
-            <h2 className="ff_glory fw-semibold fs_4xl text-white text-center pt-3">
+            <h2 className="ff_gilroy fw-semibold fs_4xl text-white text-center pt-3">
               Stay connect wherever you go
             </h2>
-            <p className="ff_glory fw_medium fs_xl tc_secondary text-center Stay-mx-width mx-auto mt-3 mb-5">
+            <p className="ff_gilroy fw_medium fs_xl tc_secondary text-center Stay-mx-width mx-auto mt-3 mb-5">
               Buy an international eSIM card, stay connected wherever you go,
               and avoid expensive phone bills.
             </p>

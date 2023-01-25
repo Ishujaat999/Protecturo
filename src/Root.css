@@ -24,7 +24,7 @@
   /* === Font Weight === */
   --fw_medium: 500;
   /* === Font Family === */
-  --ff_glory: "Glory", sans-serif;
+  --ff_gilroy: "gilroy", sans-serif;
   --ff_Montserrat: "Montserrat", sans-serif;
 
   /* === Text Color === */
@@ -77,8 +77,8 @@
   font-weight: var(--fw_medium);
 }
 /* === Font Family === */
-.ff_glory {
-  font-family: var(--ff_glory);
+.ff_gilroy {
+  font-family: var(--ff_gilroy);
 }
 .ff_Montserrat {
   font-family: var(--ff_Montserrat);
