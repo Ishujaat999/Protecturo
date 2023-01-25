@@ -26,41 +26,49 @@ const ProtecturoNav = () => {
               <li>
                 <a
                   className="d-inline-block fs_md fw_regular nav_links text-white ff_inter transition"
-                  href="#Physique"
+                  href="#Benefits"
                 >
-                  Physique
+                  Benefits
                 </a>
               </li>
               <li>
                 <a
                   className="d-inline-block fs_md fw_regular nav_links text-white ff_inter transition"
-                  href="#Mind"
+                  href="#Privacy"
                 >
-                  Mind
+                  Privacy
                 </a>
               </li>
               <li>
                 <a
                   className="d-inline-block fs_md fw_regular nav_links text-white ff_inter transition"
-                  href="#Spirit"
+                  href="#Products"
                 >
-                  Spirit
+                  Products
                 </a>
               </li>
               <li>
                 <a
                   className="d-inline-block fs_md fw_regular nav_links text-white ff_inter transition"
-                  href="#Recovery"
+                  href="#App"
                 >
-                  Recovery
+                  App
                 </a>
               </li>
               <li>
                 <a
                   className="d-inline-block fs_md fw_regular nav_links text-white ff_inter transition"
-                  href="#Nutrition"
+                  href="#Features"
                 >
-                  Nutrition
+                  Features
+                </a>
+              </li>
+              <li>
+                <a
+                  className="d-inline-block fs_md fw_regular nav_links text-white ff_inter transition"
+                  href="#FAQs"
+                >
+                  FAQs
                 </a>
               </li>
             </ul>
