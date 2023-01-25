@@ -5,7 +5,7 @@ const Features = () => {
   return (
     <>
       <section className="pb-5">
-        <Container className="pb-5">
+        <div className="my_container pb-5">
           <h3 className="ff_gilroy fw-bold fs_xxl tc_danger">Features</h3>
           <h2 className="ff_gilroy fw-bold fs_4xl text-light InClass-mx-width">
             Best-in-class Cyber safety for commercial and personal.
@@ -39,7 +39,7 @@ const Features = () => {
               );
             })}
           </Row>
-        </Container>
+        </div>
       </section>
     </>
   );

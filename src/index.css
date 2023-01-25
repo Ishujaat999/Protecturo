@@ -1,3 +1,10 @@
+.my_container {
+  max-width: 1440px !important;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 12px;
+  padding-right: 12px;
+}
 .Features_card {
   background-color: #121212;
 }
@@ -8,11 +15,36 @@
   box-shadow: 0px 4px 100px rgba(255, 0, 0, 0.5);
   border-radius: 18px;
 }
+.global_bg {
+  background-color: #121212;
+}
+.global_img {
+  bottom: -21.5%;
+}
 @media (min-width: 992px) {
   .Stay-mx-width {
     max-width: 695px;
   }
   .InClass-mx-width {
     max-width: 907px;
+  }
+}
+@media (max-width: 1399px) {
+  .w_max_xxl_100 {
+    width: 100%;
+  }
+  .pe_max_xxl_5 {
+    padding-right: 48px;
+  }
+}
+@media (min-width: 1400px) {
+  .global_img {
+    top: -39.2%;
+  }
+  .position_xxl_absolute {
+    position: absolute;
+  }
+  .end_xxl_0 {
+    right: 0;
   }
 }

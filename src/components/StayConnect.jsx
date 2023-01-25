@@ -5,9 +5,9 @@ import StayVectorStart from "../assets/images/svg/stay-vector-start.svg";
 const StayConnect = () => {
   return (
     <>
-      <section className="mt-5">
-        <Container>
-          <div className="bg_danger stay-sec rounded-4 p-5 position-relative">
+      <section className="my-5 pb-5">
+        <div className="my_container pb-5">
+          <div className="bg_danger stay-sec rounded-4 p-5 position-relative overflow-hidden mb-5">
             <img
               className="position-absolute top-0 end-0"
               src={StayVector}
@@ -37,7 +37,7 @@ const StayConnect = () => {
               alt="StayVectorStart"
             />
           </div>
-        </Container>
+        </div>
       </section>
     </>
   );
