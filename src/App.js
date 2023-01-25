@@ -12,6 +12,7 @@ import Global from "./components/Global";
 import Footer from "./components/Footer";
 import SliderDummy from "./components/SliderDummy";
 import OurStandards from "./components/OurStandards";
+import Faq from "./components/Faq";
 function App() {
   return (
     <>
@@ -24,6 +25,7 @@ function App() {
       <StayConnect />
       <Global />
       <Footer />
+      <Faq />
     </>
   );
 }
