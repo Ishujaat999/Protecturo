@@ -1,5 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap");
-@import url("https://fonts.cdnfonts.com/css/gilroy-bold");
 * {
   padding: 0;
   margin: 0;
@@ -24,7 +23,6 @@
   /* === Font Weight === */
   --fw_medium: 500;
   /* === Font Family === */
-  --ff_gilroy: "gilroy", sans-serif;
   --ff_Montserrat: "Montserrat", sans-serif;
 
   /* === Text Color === */
@@ -40,6 +38,14 @@
   --bg_body: #f2f2f2;
   --bg_info: #878787;
 }
+@font-face {
+  font-family: "Gilroy";
+  src: url(./assets/font/gilroy/Gilroy-Bold.ttf);
+  /* src: url(./assets/font/gilroy/Gilroy-SemiBold.ttf);
+  src: url(./assets/font/gilroy/Gilroy-Medium.ttf);
+  src: url(./assets/font/gilroy/Gilroy-Regular.ttf); */
+}
+
 /* === Font Size === */
 .fs_xsm {
   font-size: var(--fs_xsm);
@@ -78,7 +84,7 @@
 }
 /* === Font Family === */
 .ff_gilroy {
-  font-family: var(--ff_gilroy);
+  font-family: "Gilroy";
 }
 .ff_Montserrat {
   font-family: var(--ff_Montserrat);
