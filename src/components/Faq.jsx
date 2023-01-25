@@ -1,22 +1,35 @@
 import React from "react";
+import { Container, Col, Row } from "react-bootstrap";
 import Accordion from "react-bootstrap/Accordion";
-// import pngegg from "../assets/img/png/pngegg.png";
+import FaqsImg from "../assets/images/png/Faqs-img.png";
 
 function Faq() {
   return (
     <>
-      <section className=" bg-black position-relative" id="Faq">
-        <div className=" container py-5">
-          <div className="row flex-column-reverse align-items-center flex-xl-row justify-content-md-between">
-            <div className=" col-12  col-md-10 col-xl-6 my-5">
-              <p className=" ff_bold_gilroy fw-bold fs_md bg_red_grad_1 p-0 m-0 text-center text-xl-start">
+      <section className="position-relative" id="Faq">
+        <Container>
+          <Row className="flex-column-reverse align-items-center flex-lg-row justify-content-between">
+            <Col lg="5" xxl="5">
+              <div>
+                <img
+                  className="position-absolute start-0 bottom-0"
+                  src={FaqsImg}
+                  alt="FaqsImg"
+                />
+              </div>
+            </Col>
+            <Col lg="6" xxl="7">
+              <p className=" ff_gilroy_bold fw-bold fs_xxl faq_gradient p-0 m-0 text-center text-xl-start">
                 FAQs
               </p>
-              <h2 className=" ff_bold_gilroy fw-bold fs_xl_2 text_white_2 p-0 m-0 pt-1 text-center text-xl-start">
+              <h2
+                className=" ff_gilroy_bold tc_secondary fw-bold fs_4xl text_white_2 pt-1 text-center
+               text-xl-start pb-3"
+              >
                 Some useful answers
               </h2>
               <Accordion
-                className=" d-flex flex-column gap-4 mt-5"
+                className=" d-flex flex-column gap-4 mt-4"
                 defaultActiveKey="0"
               >
                 <Accordion.Item eventKey="0">
@@ -70,16 +83,9 @@ function Faq() {
                   </Accordion.Body>
                 </Accordion.Item>
               </Accordion>
-            </div>
-            <div className=" col-12 col-sm-8 col-md-6  col-xl-5">
-              {/* <img
-                className=" w_100 position-absolute pos_pngegg  bottom-0"
-                src={pngegg}
-                alt="pngegg"
-              /> */}
-            </div>
-          </div>
-        </div>
+            </Col>
+          </Row>
+        </Container>
       </section>
     </>
   );
