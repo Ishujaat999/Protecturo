@@ -36,7 +36,7 @@ const Header = () => {
       {
         breakpoint: 460,
         settings: {
-          slidesToShow: 1,
+          slidesToShow: 2,
           autoplay: true,
           autoplaySpeed: 1500,
           pauseOnHover: false,
@@ -185,7 +185,7 @@ const Header = () => {
                 </div>
               </div>
               <div className="col-lg-4 col-10 mx_auto ">
-                <div className="w-100 d-flex  align-items-center justify-content-end position-relative z_index_10">
+                <div className="w-100 d-flex mt-5 mt-lg-0  align-items-center justify-content-end position-relative z_index_10">
                   <img className="w-100 " src={mobile} alt="" />
                   <div className="position-absolute w-100 top-0 h-100  start-0">
                     <Slider {...phonesetting}>
