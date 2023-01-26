@@ -80,6 +80,10 @@
   color: #d41700 !important;
   transition: 300ms linear;
 }
+.cyber_img {
+  bottom: 90%;
+  z-index: -1;
+}
 
 .card_hover:hover {
   animation: shake 0.5s;

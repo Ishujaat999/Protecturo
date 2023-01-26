@@ -6,6 +6,9 @@
   overflow-x: hidden !important;
 }
 
+
+/* NAVBAR */
+
 .nav_hide {
   position: fixed;
   width: 100%;
@@ -64,19 +67,15 @@
 }
 
 .z_index_10 {
-  /* width: 65%; */
   z-index: 10;
 }
 
-/* .negative-margin {
-  margin-top: -50px;
-} */
 
 
+/* SLICK-DOTS */
 .slick-dots li button:before {
   font-family: 'slick';
   font-size: 1px !important;
-  /* line-height: 20px; */
   position: absolute;
   top: 0;
   left: 0;
@@ -94,9 +93,12 @@
 }
 
 .slick-dots li.slick-active button:before {
-  /* opacity: .75; */
   background-color: red;
 }
+
+
+/* BUTTON */
+
 
 .priamrybtn {
   background: linear-gradient(44.01deg, #D41700 -6.45%, #7F0011 136.55%);
@@ -180,6 +182,8 @@
   font-size: 36px;
 }
 
+/* BLUR */
+
 .blur {
   background: linear-gradient(44.01deg, #D41700 -6.45%, #7F0011 136.55%);
   opacity: 0.45;
@@ -214,7 +218,7 @@
 }
 
 
-@media (min-width: 1000px) {
+@media (min-width: 992px) {
   .position-lg-absolute {
     position: absolute;
   }
@@ -239,14 +243,14 @@
     position: relative;
     width: 200px !important;
   }
-}
 
-@media (max-width: 1000px) {
   .mx_auto {
     margin-left: auto;
     margin-right: auto;
   }
 }
+
+
 
 @media (min-width:1900px) {
   .w_full_hd_100 {
@@ -257,12 +261,6 @@
 .position_phone {
   bottom: -50px;
 }
-
-/* @media (min-width:1200px) {
-  .position_xxl_absolute {
-    position: absolute;
-  }
-} */
 
 .z-index-1 {
   z-index: -1;
