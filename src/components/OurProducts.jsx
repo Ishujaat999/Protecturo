@@ -6,7 +6,7 @@ import TMobile from "../assets/images/png/TMobile.png";
 const OurProducts = () => {
   return (
     <>
-      <section>
+      <section className="my-5 py-5">
         <Container>
           <h3 className="ff_gilroy_bold fw-bold fs_xxl tc_danger text-center">
             Our products

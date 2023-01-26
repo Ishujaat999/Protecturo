@@ -7,7 +7,7 @@ import instant_img from "../assets/images/png/instant_img.png";
 function Connectivity() {
   return (
     <>
-      <section>
+      <section className="my-5 py-5">
         <Container>
           <div className="connectivity_bg py-5 px-2 px-sm-5 position-relative">
             <Row

@@ -49,12 +49,17 @@
   padding-left: 20px;
   padding-right: 20px;
 }
-.our_max_width{
+.our_max_width {
   max-width: 1120px;
 }
-.btn_hover:hover {
-  background-color: transparent !important;
+.FaqsImg_img {
+  transform: translateX(-25%);
+  bottom: 0;
+}
+.my-button:hover {
+  background-color: transparent;
   outline: 2px solid #d41700;
+  color: #d41700 !important;
 }
 .card_hover:hover {
   animation: shake 0.5s;

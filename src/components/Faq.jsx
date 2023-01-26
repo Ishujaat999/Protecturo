@@ -10,16 +10,14 @@ function Faq() {
         <img className="w-75 d-block d-xl-none" src={FaqsImg} alt="FaqsImg" />
         <Container>
           <Row className=" align-items-center flex-lg-row justify-content-between">
-            <Col xl="5" xxl="5">
-              <div className="w-50">
+            <Col xl="6" xxl="6">
                 <img
-                  className="z-index-1 d-none d-xl-block position-absolute start-0 top-0"
+                  className="z-index-1 w-100 d-none d-xl-block FaqsImg_img"
                   src={FaqsImg}
                   alt="FaqsImg"
                 />
-              </div>
             </Col>
-            <Col xl="6" xxl="7">
+            <Col xl="6" xxl="6">
               <p className=" ff_gilroy_bold fw-bold fs_xxl faq_gradient p-0 m-0 text-center text-xl-start">
                 FAQs
               </p>
