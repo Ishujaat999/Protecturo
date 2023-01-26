@@ -8,7 +8,7 @@ import freelogo from "../assets/images/svg/free-logo.svg";
 const OurBenefits = () => {
   return (
     <>
-      <section className=" bg-black py-5 position-relative ">
+      <section className=" py-5 position-relative ">
         <div className="blur d-none d-lg-block position-absolute benifit_blur"></div>
         <img
           className="position-absolute d-none d-md-block  w-25 top-25 left-50"

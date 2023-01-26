@@ -25,10 +25,7 @@ const OurBenifit = () => {
       });
   }, []);
   return (
-    <section
-      className=" py-4 py-md-5 position-relative"
-      id="Benefits"
-    >
+    <section className=" py-4 py-md-5 position-relative" id="Benefits">
       <div className="blur d-none d-lg-block position-absolute benifit_blur"></div>
       <div className="container">
         <div className="row align-items-center flex-column-reverse flex-xl-row">
