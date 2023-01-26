@@ -44,23 +44,23 @@ const OurStandards = () => {
             Privacy standards <br /> not seen before in telecom
           </h2>
           <Row className=" align-items-center">
-            <Col md="10" lg="6" xl="5">
+            <Col md="10" lg="6" xl="6">
               <div className="myDemoBox">
                 <img
                   data-aos="fade-rigth"
                   data-aos-duration="1100"
-                  className=" w-100 position-rel ative z_i ndex_m_1 Our_Standards_img"
+                  className=" w-100 position-rel ative Our_Standards_img"
                   src={Our_Standards}
                   alt="Our_Standards"
                 />
               </div>
-              {/* <img
-                className=" position-absolute dote_img"
+              <img
+                className=" position-absolute dote_img d-none d-lg-inline-block"
                 src={dote_get}
                 alt="dote_get"
-              /> */}
+              />
             </Col>
-            <Col lg="6" className="">
+            <Col lg="6" className="ps-lg-4 pt-lg-4">
               <h2
                 data-aos="fade-left"
                 data-aos-duration="1100"
