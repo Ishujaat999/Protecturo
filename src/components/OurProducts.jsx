@@ -49,7 +49,7 @@ const OurProducts = () => {
                   </div>
                 </div>
               </Col>
-              <Col md="6" lg="4" className="mt-4 mt-md-0">
+              <Col md="6" lg="4" className="mt-4 mt-md-0" >
                 <div
                   data-aos="zoom-in"
                   data-aos-duration="1100"
