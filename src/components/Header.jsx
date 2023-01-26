@@ -83,9 +83,9 @@ const Header = () => {
   };
   return (
     <>
-      <section className="d-flex min-vh-100 flex-column bg-black overflow-hidden position-relative">
+      <section className="d-flex min-vh-100 flex-column bg-black overflow-hidden position-relative z_index_10">
         <ProtecturoNav />
-        <div className="flex-grow-1 py-4 d-flex align-items-center position-relative">
+        <div className="flex-grow-1 py-4 d-flex align-items-center position-relative z_index_10">
           <img
             className="position-absolute header_logo_positioning"
             src={freelogo}
