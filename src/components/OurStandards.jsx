@@ -1,6 +1,7 @@
 import React from "react";
 import { Container, Col, Row } from "react-bootstrap";
 import Our_Standards from "../assets/images/png/OurStandards.png";
+import dote_get from "../assets/images/png/doteGetSarted.png";
 const OurStandards = () => {
   return (
     <>
@@ -11,10 +12,19 @@ const OurStandards = () => {
             Privacy standards <br /> not seen before in telecom
           </h2>
           <Row className=" align-items-center">
-            <Col lg="7">
-              <img className=" w-100" src={Our_Standards} alt="Our_Standards" />
+            <Col lg="5">
+              <img
+                className=" w-100 position-relative z_index_m_1"
+                src={Our_Standards}
+                alt="Our_Standards"
+              />
+              <img
+                className=" position-absolute dote_img"
+                src={dote_get}
+                alt="dote_get"
+              />
             </Col>
-            <Col lg="5" className="mL_m mt-5 pt-5">
+            <Col lg="5" className="">
               <h2 className=" fs_3xl fw-bold text-light pt-5">
                 Get started <br /> with Protecturo
               </h2>
@@ -30,7 +40,7 @@ const OurStandards = () => {
                 contracts, no credit checks and no fine prints. To protect your
                 privacy online, our data plans come with a Privacy IP address.
               </p>
-              <button >Get started</button>
+              <button>Get started</button>
             </Col>
           </Row>
         </Container>

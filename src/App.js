@@ -6,7 +6,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Header from "./components/Header";
 import OurBenefits from "./components/OurBenefits";
-// import SliderDummy from "./components/SliderDummy";
+import SliderDummy from "./components/SliderDummy";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import OurStandards from "./components/OurStandards";
@@ -21,7 +21,7 @@ function App() {
       {/* <SliderDummy /> */}
       <OurBenefits />
       <OurStandards />
-      {/* <OurBenefits /> */}
+      <OurBenefits />
       <Features />
       <StayConnect />
       <Global />

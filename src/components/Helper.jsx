@@ -19,8 +19,4 @@ export const sliderData = [
     heading: "100+",
     para: "Trusted partners",
   },
-  {
-    heading: "150+",
-    para: "Trusted partners",
-  },
 ];
