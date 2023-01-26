@@ -7,10 +7,7 @@ import freelogo from "../assets/images/svg/free-logo.svg";
 const OurProducts = () => {
   return (
     <>
-      <section
-        id="Products"
-        className="mt-5 py-5 position-relative"
-      >
+      <section id="Products" className="mt-5 py-5 position-relative">
         <img
           className="position-absolute d-none d-md-block  header_logo_positioning"
           src={freelogo}
