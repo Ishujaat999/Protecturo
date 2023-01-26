@@ -12,6 +12,9 @@ import StayConnect from "./components/StayConnect";
 import Global from "./components/Global";
 import Footer from "./components/Footer";
 import Preloader from "./components/Preloader";
+
+import SliderDummy from "./components/SliderDummy";
+// import OurStandards from "./components/OurStandards";
 import Faq from "./components/Faq";
 import Connectivity from "./components/Connectivity";
 import OurProducts from "./components/OurProducts";
@@ -33,7 +36,6 @@ function App() {
       <OurStandards />
       <Connectivity />
       <OurProducts />
-      <OurBenifit />
       <Features />
       <StayConnect />
       <Faq />

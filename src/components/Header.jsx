@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useRef, useState } from "react";
 import { Container, Row } from "react-bootstrap";
 import ProtecturoNav from "./ProtecturoNav";
 import Slider from "react-slick";
@@ -7,10 +7,12 @@ import mobileslider from "../assets/images/svg/phoneSlider.svg";
 import east from "../assets/images/svg/east.svg";
 import west from "../assets/images/svg/west.svg";
 import arrow from "../assets/images/svg/aroow-slider.svg";
+import freelogo from "../assets/images/svg/free-logo.svg";
 
 // import Slider from "slick-carousel";
 
 const Header = () => {
+  const slider = useRef(null);
   var setting = {
     dots: false,
     infinite: true,
@@ -82,9 +84,14 @@ const Header = () => {
   };
   return (
     <>
-      <section className="d-flex min-vh-100 flex-column bg-black overflow-hidden">
+      <section className="d-flex min-vh-100 flex-column bg-black overflow-hidden position-relative">
         <ProtecturoNav />
         <div className="flex-grow-1 py-4 d-flex align-items-center position-relative">
+          <img
+            className="position-absolute header_logo_positioning"
+            src={freelogo}
+            alt="freelogo"
+          />
           <div className="blur position-absolute start-0 top-50"></div>
           <div className="blur position-absolute header-blur"></div>
           <Container>
@@ -93,7 +100,7 @@ const Header = () => {
                 <h1 className="tc_secondary ff_gilroy_bold fw-bold fs_5xl">
                   A platform to secure your all digital assets.
                 </h1>
-                <p className="ff_gilroy_Regular tc_info w-75">
+                <p className="ff_gilroy_Regular tc_info fs_xl w-75">
                   Ut enim ad minim veniam, quis nostrud exercitation ullamco
                   laboris nisi ut aliquip ex ea commodo consequat. Duis aute
                   irure dolor in reprehenderit in voluptate velit esse cillum
@@ -101,10 +108,20 @@ const Header = () => {
                 </p>
                 <div className="w-80 position-lg-absolute">
                   <div className="pt-4 pb-3">
-                    <img className="prevArrow" src={west} alt="" />
-                    <img className="ms-3 nextArrow" src={east} alt="" />
+                    <img
+                      onClick={() => slider.current.slickPrev()}
+                      className="prevArrow"
+                      src={west}
+                      alt=""
+                    />
+                    <img
+                      onClick={() => slider.current.slickNext()}
+                      className="ms-3 nextArrow"
+                      src={east}
+                      alt=""
+                    />
                   </div>
-                  <Slider {...setting}>
+                  <Slider ref={slider} {...setting}>
                     <div className="px-2 h-100 ">
                       <div className="hero-slider-card">
                         <p className=" py-4 ff_gilroy_Regular text-white  fs_lg   ps-3 tc_primary pe-5">
@@ -199,7 +216,7 @@ const Header = () => {
                           Satisfaction
                         </p>
                         <p className="text-center text-white px-5 ff_gilroy">
-                          98% of our valued customers are secured from cyber
+                          108% of our valued customers are secured from cyber
                           frauds.
                         </p>
                       </div>
@@ -229,7 +246,7 @@ const Header = () => {
                           Security
                         </p>
                         <p className="text-center text-white px-5 ff_gilroy">
-                          98% of our valued customers are secured from cyber
+                          398% of our valued customers are secured from cyber
                           frauds.
                         </p>
                       </div>
