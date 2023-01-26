@@ -9,7 +9,7 @@ import line2 from "../assets/images/svg/Line_2.svg";
 function HowIt() {
   return (
     <>
-      <section className="pb-5 position-relative overflow-hidden">
+      <section className="pb-5 position-relative">
         <Container>
           <Row className=" align-items-center justify-content-center justify-content-lg-start">
             <Col sm="8" md="4">

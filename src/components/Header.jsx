@@ -83,7 +83,7 @@ const Header = () => {
   };
   return (
     <>
-      <section className="d-flex min-vh-100 flex-column bg-black overflow-hidden position-relative">
+      <section className="d-flex min-vh-100 flex-column position-relative">
         <img
           className="position-absolute d-none d-md-block  w-25 logo_header_corner z-index-1"
           src={freelogo}
