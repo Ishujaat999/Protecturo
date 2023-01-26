@@ -12,15 +12,15 @@ import StayConnect from "./components/StayConnect";
 import Global from "./components/Global";
 import Footer from "./components/Footer";
 import Preloader from "./components/Preloader";
-
-import SliderDummy from "./components/SliderDummy";
-// import OurStandards from "./components/OurStandards";
 import Faq from "./components/Faq";
 import Connectivity from "./components/Connectivity";
 import OurProducts from "./components/OurProducts";
 import { useEffect, useState } from "react";
 import HowIt from "./components/HowIt";
 import OurBenifit from "./components/OurBenifit";
+
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 function App() {
   const [loading, setLoading] = useState(true);
@@ -30,6 +30,10 @@ function App() {
       document.body.classList.remove("fix-screen");
     }, 2400);
   }, []);
+  AOS.init({
+    once: true,
+    // disable: "mobile",
+  });
   return (
     <>
       {loading && <Preloader />}

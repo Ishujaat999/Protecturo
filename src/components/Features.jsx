@@ -22,7 +22,7 @@ const Features = () => {
                   key={value.id}
                   className="mt-4"
                 >
-                  <div className="Features_card p-3 px-4 h-100">
+                  <div className="Features_card p-3 px-4 h-100 card_hover">
                     <img src={value.Img} alt="yourData" />
                     <div className="py-3">
                       <div className="d-flex justify-content-between">

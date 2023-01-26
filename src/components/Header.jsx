@@ -18,8 +18,7 @@ const Header = () => {
     infinite: true,
     autoplay: true,
     arrows: false,
-    prevArrow: '<img className="prevArrow" src={west} alt="" />',
-    nextArrow: '<img className="nextArrow" src={east} alt="" />',
+
     speed: 500,
     slidesToShow: 5,
     slidesToScroll: 1,
@@ -97,10 +96,20 @@ const Header = () => {
           <Container>
             <Row className="justify-content-between position-relative">
               <div className="col-lg-7 col-12">
-                <h1 className="tc_secondary ff_gilroy_bold fw-bold fs_5xl">
+                <h1
+                  data-aos="fade-right"
+                  data-aos-delay="2500"
+                  data-aos-duration="1100"
+                  className="tc_secondary ff_gilroy_bold fw-bold fs_5xl"
+                >
                   A platform to secure your all digital assets.
                 </h1>
-                <p className="ff_gilroy_Regular tc_info fs_xl w-75">
+                <p
+                  data-aos="fade-right"
+                  data-aos-delay="2500"
+                  data-aos-duration="1100"
+                  className="ff_gilroy_Regular tc_info fs_xl w-75"
+                >
                   Ut enim ad minim veniam, quis nostrud exercitation ullamco
                   laboris nisi ut aliquip ex ea commodo consequat. Duis aute
                   irure dolor in reprehenderit in voluptate velit esse cillum
@@ -121,18 +130,29 @@ const Header = () => {
                       alt=""
                     />
                   </div>
+                  {/* SLIDER */}
                   <Slider ref={slider} {...setting}>
-                    <div className="px-2 h-100 ">
+                    <div
+                      data-aos="fade-right"
+                      data-aos-delay="2500"
+                      data-aos-duration="1100"
+                      className="px-2 h-100 "
+                    >
                       <div className="hero-slider-card">
                         <p className=" py-4 ff_gilroy_Regular text-white  fs_lg   ps-3 tc_primary pe-5">
                           Secure payments
                         </p>
                         <div className="d-flex justify-content-end w-100 pe-3 pb-4">
-                          <img src={arrow} alt="" />
+                          <img src={arrow} alt="arrow" />
                         </div>
                       </div>
                     </div>
-                    <div className=" px-2 h-100">
+                    <div
+                      data-aos="fade-right"
+                      data-aos-delay="2600"
+                      data-aos-duration="1100"
+                      className=" px-2 h-100"
+                    >
                       <div className="hero-slider-card">
                         <p className=" py-4 ff_gilroy text-white  fs_lg ps-3 tc_primary pe-5">
                           Operational securities
@@ -142,7 +162,12 @@ const Header = () => {
                         </div>
                       </div>
                     </div>
-                    <div className=" px-2 ">
+                    <div
+                      data-aos="fade-right"
+                      data-aos-delay="2700"
+                      data-aos-duration="1100"
+                      className=" px-2 "
+                    >
                       <div className="hero-slider-card">
                         <p className=" py-4 ff_gilroy text-white  fs_lg ps-3 tc_primary pe-5">
                           <span className="text-nowrap">Secure data</span>{" "}
@@ -153,7 +178,12 @@ const Header = () => {
                         </div>
                       </div>
                     </div>
-                    <div className="px-2 ">
+                    <div
+                      data-aos="fade-right"
+                      data-aos-delay="2800"
+                      data-aos-duration="1100"
+                      className="px-2 "
+                    >
                       <div className="hero-slider-card">
                         {/* <img className="w-100" src={esther_3} alt="esther_1" /> */}
                         <p className=" py-4 ff_gilroy text-white  fs_lg ps-3 tc_primary pe-5">
@@ -164,7 +194,12 @@ const Header = () => {
                         </div>
                       </div>
                     </div>
-                    <div className="px-2  ">
+                    <div
+                      data-aos="fade-right"
+                      data-aos-delay="2900"
+                      data-aos-duration="1100"
+                      className="px-2  "
+                    >
                       <div className="hero-slider-card">
                         {/* <img className="w-100" src={esther_3} alt="esther_1" /> */}
                         <p className=" py-4 ff_gilroy text-white  fs_lg ps-3 tc_primary pe-5">
@@ -176,18 +211,12 @@ const Header = () => {
                         </div>
                       </div>
                     </div>
-                    <div className=" px-2 ">
-                      <div className="hero-slider-card">
-                        {/* <img className="w-100" src={esther_3} alt="esther_1" /> */}
-                        <p className=" py-4 ff_gilroy text-white  fs_lg ps-3 tc_primary pe-5">
-                          Operational securities
-                        </p>
-                        <div className="d-flex justify-content-end w-100 pe-3 pb-4">
-                          <img src={arrow} alt="" />
-                        </div>
-                      </div>
-                    </div>
-                    <div className=" px-2 ">
+                    <div
+                      data-aos="fade-right"
+                      data-aos-delay="3000"
+                      data-aos-duration="1100"
+                      className=" px-2 "
+                    >
                       <div className="hero-slider-card">
                         {/* <img className="w-100" src={esther_3} alt="esther_1" /> */}
                         <p className=" py-4 ff_gilroy text-white  fs_lg ps-3 tc_primary pe-5">
@@ -201,51 +230,56 @@ const Header = () => {
                   </Slider>
                 </div>
               </div>
-              <div className="col-lg-4 col-10 mx_auto ">
-                <div className="w-100 d-flex mt-5 mt-lg-0  align-items-center justify-content-end position-relative z_index_10">
+              <div className="col-lg-4 col-sm-7 col-10 mx_auto ">
+                <div
+                  data-aos="fade-left"
+                  data-aos-delay="2500"
+                  data-aos-duration="1100"
+                  className="w-100 d-flex mt-5 mt-lg-0  align-items-center justify-content-end position-relative z_index_10"
+                >
                   <img className="w-100 " src={mobile} alt="" />
-                  <div className="position-absolute w-100 top-0 h-100  start-0">
+                  <div className="position-absolute w-100 top-0  h-100  start-0">
                     <Slider {...phonesetting}>
-                      <div className="h-100">
+                      <div className="">
                         <img
-                          className="w-75 negative-margin pt-5 ms-3"
+                          className="w-75 negative-margin pt-5 ms-3 mb-5"
                           src={mobileslider}
                           alt=""
                         />
-                        <p className="text-center text-linear-red ff_gilroy_SemiBold pt-5">
+                        <p className="text-center text-linear-red ff_gilroy_SemiBold mt-0 mt-sm-5  pt-0 pt-sm-5">
                           Satisfaction
                         </p>
-                        <p className="text-center text-white px-5 ff_gilroy">
+                        <p className="text-center text-white px-5 ff_gilroy_Regular fs_sm">
                           108% of our valued customers are secured from cyber
                           frauds.
                         </p>
                       </div>
                       <div className="w-100">
-                        <div className="text-center mx-auto d-flex justify-content-center w-100">
+                        <div className=" w-100">
                           <img
-                            className="w-75 pt-5 ms-3 text-center mx-auto"
+                            className="w-75 pt-5 ms-3 mb-5"
                             src={mobileslider}
                             alt=""
                           />
                         </div>
-                        <p className="text-center text-linear-red ff_gilroy_SemiBold pt-5">
+                        <p className="text-center text-linear-red ff_gilroy_SemiBold  pt-0 pt-sm-5 mt-0 mt-sm-5">
                           Stay connected
                         </p>
-                        <p className="text-center text-white px-5 ff_gilroy">
+                        <p className="text-center text-white px-5 ff_gilroy_Regular fs_sm">
                           98% of our valued customers are secured from cyber
                           frauds.
                         </p>
                       </div>
                       <div className="">
                         <img
-                          className="w-75 pt-5 ms-3"
+                          className="w-75 pt-5 ms-3 mb-5"
                           src={mobileslider}
                           alt=""
                         />
-                        <p className="text-center text-linear-red ff_gilroy_SemiBold pt-5">
+                        <p className="text-center text-linear-red ff_gilroy_SemiBold pt-0 pt-sm-5 mt-0 mt-sm-5">
                           Security
                         </p>
-                        <p className="text-center text-white px-5 ff_gilroy">
+                        <p className="text-center text-white px-5 ff_gilroy_Regular fs_sm">
                           398% of our valued customers are secured from cyber
                           frauds.
                         </p>
