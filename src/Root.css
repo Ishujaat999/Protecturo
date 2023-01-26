@@ -12,7 +12,7 @@
 :root {
   /* === Font Size === */
   --fs_xsm: 14px;
-  --fs_sm: 16px;
+  --fs_sm: 14px;
   --fs_md: 18px;
   --fs_lg: 20px;
   --fs_xl: 14px;
@@ -177,7 +177,7 @@
   :root {
     /* === Font Size === */
     --fs_xsm: 14px;
-    --fs_sm: 16px;
+    --fs_sm: 14px;
     --fs_md: 18px;
     --fs_lg: 20px;
     --fs_xl: 14px;
@@ -188,18 +188,19 @@
     --fs_5xl: 50px;
   }
 }
+
 @media (min-width: 992px) {
   :root {
     /* === Font Size === */
     --fs_sm: 16px;
     --fs_md: 14px;
     --fs_lg: 20px;
-    --fs_xl: 22px;
+    --fs_xl: 18px;
     --fs_xxl: 18px;
     --fs_2xl: 45px;
     --fs_3xl: 45px;
     --fs_4xl: 45px;
-    --fs_5xl: 55px;
+    --fs_5xl: 50px;
   }
 
   .fs_xxl_30 {
@@ -218,7 +219,7 @@
     --fs_2xl: 40px;
     --fs_3xl: 50px;
     --fs_4xl: 52px;
-    --fs_5xl: 65px;
+    --fs_5xl: 60px;
   }
 }
 
@@ -232,7 +233,7 @@
     --fs_xxl: 24px;
     --fs_2xl: 45px;
     --fs_3xl: 56px;
-    --fs_4xl: 62px;
+    --fs_4xl: 52px;
     --fs_5xl: 75px;
   }
 

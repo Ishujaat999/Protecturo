@@ -9,11 +9,17 @@ import line2 from "../assets/images/svg/Line_2.svg";
 function HowIt() {
   return (
     <>
-      <section className="">
+      <section className=" mt-3 mt-xl-0 py-5">
         <Container>
-          <Row className=" align-items-center">
-            <Col md="5">
-              <img className=" w-100" src={scanner} alt="" />
+          <Row className=" align-items-center justify-content-center justify-content-lg-start">
+            <Col sm="8" md="5">
+              <div className=" text-center">
+                <img
+                  className=" w-100 scanner_img"
+                  src={scanner}
+                  alt="scanner"
+                />
+              </div>
             </Col>
             <Col md="7">
               <p className=" ff_gilroy fw-bold fs_xl tx_neutral tc_danger">
