@@ -25,7 +25,7 @@ const OurStandards = () => {
     <>
       <section
         id="hearedListing"
-        className=" bg-black mt_m_1 py-5 position-relative  overflow-hidden"
+        className=" bg-black mt_m_1 py-5 position-relative "
       >
         <div className="blur d-none d-md-block position-absolute start-0 top-50"></div>
         <Container>
@@ -89,10 +89,8 @@ const OurStandards = () => {
                 privacy online, our data plans come with a Privacy IP address.
               </p>
               <button
-                data-aos="fade-left"
-                data-aos-duration="1100"
-                className="  fw_medium fs_sm
-               bg_danger border-0 text-white ff_gilroy_Regular  rounded-pill my-button mt-3"
+                className="ff_Montserrat fw_medium fs_sm
+               bg_danger border-0 text-white  rounded-pill my-button"
               >
                 Get started
               </button>

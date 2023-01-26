@@ -9,7 +9,7 @@ import insta from "../assets/images/svg/insta.svg";
 function Footer() {
   return (
     <>
-      <footer className=" mt-5 pt-5 pb-4">
+      <footer className=" mt-5 pt-5 pb-4 overflow_x_hidden">
         <Container className="pt-3">
           <Row>
             <Col lg="4">
@@ -49,7 +49,7 @@ function Footer() {
                       </li>
                       <li className=" mb-3">
                         <a
-                          className=" ff_gilroy_SemiBold fw-semibold fs_sm tc_info "
+                          className="ff_gilroy_SemiBold nav_links fw-semibold fs_sm tc_info "
                           href="#"
                         >
                           eSIM
@@ -57,7 +57,7 @@ function Footer() {
                       </li>
                       <li className=" mb-3">
                         <a
-                          className=" ff_gilroy_SemiBold fw-semibold fs_sm tc_info "
+                          className=" ff_gilroy_SemiBold nav_links fw-semibold fs_sm tc_info "
                           href="#"
                         >
                           SIM Card
@@ -65,7 +65,7 @@ function Footer() {
                       </li>
                       <li className=" mb-3">
                         <a
-                          className=" ff_gilroy_SemiBold fw-semibold fs_sm tc_info "
+                          className=" ff_gilroy_SemiBold nav_links fw-semibold fs_sm tc_info "
                           href="#"
                         >
                           Wifi HotSopt
@@ -82,7 +82,7 @@ function Footer() {
                       </li>
                       <li className=" mb-3">
                         <a
-                          className=" ff_gilroy_SemiBold fw-semibold fs_sm tc_info "
+                          className=" ff_gilroy_SemiBold nav_links fw-semibold fs_sm tc_info "
                           href="#"
                         >
                           About
@@ -90,7 +90,7 @@ function Footer() {
                       </li>
                       <li className=" mb-3">
                         <a
-                          className=" ff_gilroy_SemiBold fw-semibold fs_sm tc_info "
+                          className=" ff_gilroy_SemiBold nav_links fw-semibold fs_sm tc_info "
                           href="#"
                         >
                           Careers
@@ -98,7 +98,7 @@ function Footer() {
                       </li>
                       <li className=" mb-3">
                         <a
-                          className=" ff_gilroy_SemiBold fw-semibold fs_sm tc_info "
+                          className=" ff_gilroy_SemiBold nav_links fw-semibold fs_sm tc_info "
                           href="#"
                         >
                           Ventures
@@ -106,7 +106,7 @@ function Footer() {
                       </li>
                       <li className=" mb-3">
                         <a
-                          className=" ff_gilroy_SemiBold fw-semibold fs_sm tc_info "
+                          className=" ff_gilroy_SemiBold nav_links fw-semibold fs_sm tc_info "
                           href="#"
                         >
                           Grants
@@ -114,7 +114,7 @@ function Footer() {
                       </li>
                       <li className=" mb-3">
                         <a
-                          className=" ff_gilroy_SemiBold fw-semibold fs_sm tc_info "
+                          className=" ff_gilroy_SemiBold nav_links fw-semibold fs_sm tc_info "
                           href="#"
                         >
                           Docs
@@ -131,7 +131,7 @@ function Footer() {
                       </li>
                       <li className=" mb-3">
                         <a
-                          className=" ff_gilroy_SemiBold fw-semibold fs_sm tc_info "
+                          className=" ff_gilroy_SemiBold nav_links fw-semibold fs_sm tc_info "
                           href="#"
                         >
                           Support Center
@@ -139,7 +139,7 @@ function Footer() {
                       </li>
                       <li className=" mb-3">
                         <a
-                          className=" ff_gilroy_SemiBold fw-semibold fs_sm tc_info "
+                          className=" ff_gilroy_SemiBold nav_links fw-semibold fs_sm tc_info "
                           href="#"
                         >
                           FAQs
@@ -147,7 +147,7 @@ function Footer() {
                       </li>
                       <li className=" mb-3">
                         <a
-                          className=" ff_gilroy_SemiBold fw-semibold fs_sm tc_info "
+                          className=" ff_gilroy_SemiBold nav_links fw-semibold fs_sm tc_info "
                           href="#"
                         >
                           Partners
@@ -155,7 +155,7 @@ function Footer() {
                       </li>
                       <li className=" mb-3">
                         <a
-                          className=" ff_gilroy_SemiBold fw-semibold fs_sm tc_info "
+                          className=" ff_gilroy_SemiBold nav_links fw-semibold fs_sm tc_info "
                           href="#"
                         >
                           Blogs
@@ -163,7 +163,7 @@ function Footer() {
                       </li>
                       <li className=" mb-3">
                         <a
-                          className=" ff_gilroy_SemiBold fw-semibold fs_sm tc_info "
+                          className=" ff_gilroy_SemiBold nav_links fw-semibold fs_sm tc_info "
                           href="#"
                         >
                           Updates & News
@@ -180,7 +180,7 @@ function Footer() {
                       </li>
                       <li className=" mb-3">
                         <a
-                          className=" ff_gilroy_SemiBold fw-semibold fs_sm tc_info "
+                          className=" ff_gilroy_SemiBold nav_links fw-semibold fs_sm tc_info "
                           href="#"
                         >
                           Profile
@@ -188,7 +188,7 @@ function Footer() {
                       </li>
                       <li className=" mb-3">
                         <a
-                          className=" ff_gilroy_SemiBold fw-semibold fs_sm tc_info "
+                          className=" ff_gilroy_SemiBold nav_links fw-semibold fs_sm tc_info "
                           href="#"
                         >
                           Favorites
@@ -196,7 +196,7 @@ function Footer() {
                       </li>
                       <li className=" mb-3">
                         <a
-                          className=" ff_gilroy_SemiBold fw-semibold fs_sm tc_info "
+                          className=" ff_gilroy_SemiBold nav_links fw-semibold fs_sm tc_info "
                           href="#"
                         >
                           Watchlist
@@ -204,7 +204,7 @@ function Footer() {
                       </li>
                       <li className=" mb-3">
                         <a
-                          className=" ff_gilroy_SemiBold fw-semibold fs_sm tc_info "
+                          className=" ff_gilroy_SemiBold nav_links fw-semibold fs_sm tc_info "
                           href="#"
                         >
                           My Collections
@@ -212,7 +212,7 @@ function Footer() {
                       </li>
                       <li className=" mb-3">
                         <a
-                          className=" ff_gilroy_SemiBold fw-semibold fs_sm tc_info "
+                          className=" ff_gilroy_SemiBold nav_links fw-semibold fs_sm tc_info "
                           href="#"
                         >
                           Settings

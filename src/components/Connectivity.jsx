@@ -7,7 +7,7 @@ import instant_img from "../assets/images/png/instant_img.png";
 function Connectivity() {
   return (
     <>
-      <section className=" py-5 position-relative overflow-hidden">
+      <section className=" py-5 position-relative">
         <div className="blur d-none d-lg-block position-absolute benifit_blur"></div>
         <Container>
           <div className="connectivity_bg py-5 px-2 px-sm-5 position-relative">
@@ -15,7 +15,12 @@ function Connectivity() {
               className="justify-content-between align-items-center 
              flex-lg-row"
             >
-              <Col md="6">
+              <Col
+                md="6"
+                data-aos="fade-right"
+                data-aos-delay="100"
+                data-aos-duration="1100"
+              >
                 <div className="py-4">
                   <h2 className="ff_gilroy_bold fw-bold fs_4xl tc_secondary mt-4 mt-lg-0">
                     Instant connectivity with the Protecturo app
@@ -45,6 +50,9 @@ function Connectivity() {
               <Col md="6" xl="5">
                 <img
                   className="instant_img"
+                  data-aos="fade-left"
+                  data-aos-delay="100"
+                  data-aos-duration="1100"
                   src={instant_img}
                   alt="instant_img"
                 />

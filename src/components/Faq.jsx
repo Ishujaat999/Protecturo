@@ -6,18 +6,29 @@ import FaqsImg from "../assets/images/png/Faqs-img.png";
 function Faq() {
   return (
     <>
-      <section className="position-relative mb-5 pb-5" id="Faq">
-        <img className="w-75 d-block d-xl-none" src={FaqsImg} alt="FaqsImg" />
+      <section className="position-relative pb-5" id="Faq">
         <Container>
-          <Row className=" align-items-center flex-lg-row justify-content-between">
-            <Col xl="6" xxl="6">
-                <img
-                  className="z-index-1 w-100 d-none d-xl-block FaqsImg_img"
-                  src={FaqsImg}
-                  alt="FaqsImg"
-                />
+          <Row className="align-items-center justify-content-between">
+            <Col md="6" xxl="6" className="text-center">
+              <img
+                className="z-index-1 d_none d_md_inline_block d_3xxl_none FaqsImg_img 
+                w-50"
+                src={FaqsImg}
+                alt="FaqsImg"
+              />
+              <img
+                className="z-index-1 d_none FaqsImg_img d_3xxl_inline_block"
+                src={FaqsImg}
+                alt="FaqsImg"
+              />
             </Col>
-            <Col xl="6" xxl="6">
+            <Col
+              md="6"
+              xxl="6"
+              data-aos="fade-left"
+              data-aos-delay="100"
+              data-aos-duration="1100"
+            >
               <p className=" ff_gilroy_bold fw-bold fs_xxl faq_gradient p-0 m-0 text-center text-xl-start">
                 FAQs
               </p>

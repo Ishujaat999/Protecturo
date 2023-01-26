@@ -26,7 +26,7 @@ const OurBenifit = () => {
   }, []);
   return (
     <section
-      className="bg-black py-4 py-md-5 overflow-hidden position-relative"
+      className=" py-4 py-md-5 position-relative"
       id="Benefits"
     >
       <div className="blur d-none d-lg-block position-absolute benifit_blur"></div>
