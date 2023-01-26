@@ -39,7 +39,7 @@ const OurProducts = () => {
                   </div>
                 </div>
               </Col>
-              <Col md="6" lg="4" className="mt-4 mt-md-0">
+              <Col md="6" lg="4" className="mt-4 mt-md-0" >
                 <div className="d-flex text-center justify-content-center h-100">
                   <div className="Products_card mx-3">
                     <img className="mb-1" src={SIMCard} alt="SIMCard" />
