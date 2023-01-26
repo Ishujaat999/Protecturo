@@ -1,10 +1,10 @@
-<svg width="257" height="67" viewBox="0 0 257 67" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M0 66H157.091V1H257" stroke="url(#paint0_linear_55_3858)" stroke-width="2"/>
+<svg width="257" height="67" viewBox="0 0 257 67" fill="none" xmlns="http://www.w3.org/2000/svg" style="">
+<path d="M0 66H157.091V1H257" stroke="url(#paint0_linear_55_3858)" stroke-width="2" class="mMthMfIH_0"></path>
 <defs>
 <linearGradient id="paint0_linear_55_3858" x1="50" y1="65.5578" x2="255.259" y2="65.5578" gradientUnits="userSpaceOnUse">
-<stop stop-color="#E80F0F" stop-opacity="0"/>
-<stop offset="0.544792" stop-color="#E80F0F"/>
-<stop offset="1" stop-color="#E80F0F" stop-opacity="0"/>
+<stop stop-color="#E80F0F" stop-opacity="0"></stop>
+<stop offset="0.544792" stop-color="#E80F0F"></stop>
+<stop offset="1" stop-color="#E80F0F" stop-opacity="0"></stop>
 </linearGradient>
 </defs>
-</svg>
+<style data-made-with="vivus-instant">.mMthMfIH_0{stroke-dasharray:322 324;stroke-dashoffset:323;animation:mMthMfIH_draw_0 7200ms linear 0ms infinite,mMthMfIH_fade 7200ms linear 0ms infinite;}@keyframes mMthMfIH_draw{100%{stroke-dashoffset:0;}}@keyframes mMthMfIH_fade{0%{stroke-opacity:1;}94.44444444444444%{stroke-opacity:1;}100%{stroke-opacity:0;}}@keyframes mMthMfIH_draw_0{11.11111111111111%{stroke-dashoffset: 323}52.77777777777778%{ stroke-dashoffset: 0;}100%{ stroke-dashoffset: 0;}}</style></svg>
