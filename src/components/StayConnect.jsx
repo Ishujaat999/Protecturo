@@ -5,9 +5,9 @@ import StayVectorStart from "../assets/images/svg/stay-vector-start.svg";
 const StayConnect = () => {
   return (
     <>
-      <section className="my-5 pb-5">
+      <section className="my-xl-5 pb-5">
         <Container className="pb-5">
-          <div className="bg_danger stay-sec rounded-4 p-5 position-relative overflow-hidden mb-5">
+          <div className="bg_danger stay-sec rounded-4 p-3 p-md-5 position-relative overflow-hidden mb-5">
             <img
               className="position-absolute top-0 end-0 z_index_1"
               src={StayVector}
@@ -21,7 +21,7 @@ const StayConnect = () => {
             </h2>
             <p
               className="ff_gilroy_Medium fw_medium fs_xl tc_secondary
-             text-center Stay-mx-width mx-auto mt-3 pb-4 z_index_2 position-relative"
+             text-center Stay-mx-width mx-auto mt-3 pb-sm-4 z_index_2 position-relative"
             >
               Buy an international eSIM card, stay connected wherever you go,
               and avoid expensive phone bills.

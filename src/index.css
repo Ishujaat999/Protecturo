@@ -49,6 +49,11 @@
   padding-left: 20px;
   padding-right: 20px;
 }
+@media (max-width: 992px) {
+  .store_width {
+    width: 45%;
+  }
+}
 @media (min-width: 992px) {
   .Stay-mx-width {
     max-width: 695px;
@@ -67,12 +72,20 @@
   .instant_img {
     width: 100%;
   }
+  .GlobalImg {
+    width: 100%;
+  }
 }
 @media (min-width: 1400px) {
   .instant_img {
     position: absolute;
     right: 20px;
-    top: -55px;
+    bottom: 0px;
+  }
+  .GlobalImg {
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
   }
   .global_img {
     top: -39.2%;
