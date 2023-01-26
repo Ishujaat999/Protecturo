@@ -22,9 +22,9 @@ const Features = () => {
                   key={value.id}
                   className="mt-4"
                 >
-                  <div className="Features_card py-3 px-4 h-100">
+                  <div className="Features_card p-3 px-4 h-100">
                     <img src={value.Img} alt="yourData" />
-                    <div className=" p-3">
+                    <div className="py-3">
                       <div className="d-flex justify-content-between">
                         <h1 className="ff_gilroy_SemiBold fs_xxl fw-semibold tc_primary">
                           {value.heading}

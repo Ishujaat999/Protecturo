@@ -1,6 +1,8 @@
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import eSIM_img from "../assets/images/png/eSIM_img.png";
+import SIMCard from "../assets/images/png/SIMCard.png";
+import TMobile from "../assets/images/png/TMobile.png";
 const OurProducts = () => {
   return (
     <>
@@ -8,7 +10,7 @@ const OurProducts = () => {
         <Container>
           <Row className="mt-5 justify-content-center">
             <Col md="6" lg="4">
-              <div className="d-flex text-center justify-content-center">
+              <div className="d-flex text-center justify-content-center h-100">
                 <div className="Products_card ">
                   <img className="mb-1" src={eSIM_img} alt="eSIM_img" />
                   <h3 className="ff_gilroy_SemiBold fw-semibold fs_xxl tc_primary mt-4">
@@ -28,9 +30,9 @@ const OurProducts = () => {
               </div>
             </Col>
             <Col md="6" lg="4" className="mt-4 mt-md-0">
-              <div className="d-flex text-center justify-content-center">
+              <div className="d-flex text-center justify-content-center h-100">
                 <div className="Products_card ">
-                  <img className="mb-1" src={eSIM_img} alt="eSIM_img" />
+                  <img className="mb-1" src={SIMCard} alt="SIMCard" />
                   <h3 className="ff_gilroy_SemiBold fw-semibold fs_xxl tc_primary mt-4">
                     SIM card
                   </h3>
@@ -48,9 +50,9 @@ const OurProducts = () => {
               </div>
             </Col>
             <Col md="6" lg="4" className="mt-4 mt-lg-0">
-              <div className="d-flex text-center justify-content-center">
+              <div className="d-flex text-center justify-content-center h-100">
                 <div className="Products_card ">
-                  <img className="mb-1" src={eSIM_img} alt="eSIM_img" />
+                  <img className="mb-1" src={TMobile} alt="TMobile" />
                   <h3 className="ff_gilroy_SemiBold fw-semibold fs_xxl tc_primary mt-4">
                     Mobile Wifi Hotspot
                   </h3>
