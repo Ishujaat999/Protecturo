@@ -8,10 +8,16 @@ const OurProducts = () => {
     <>
       <section className="my-5 py-5">
         <Container>
-          <h3 className="ff_gilroy_bold fw-bold fs_xxl tc_danger text-center">
+          <h3
+            data-aos="zoom-in"
+            data-aos-duration="1100"
+            className="ff_gilroy_bold fw-bold fs_xxl tc_danger text-center"
+          >
             Our products
           </h3>
           <h2
+            data-aos="zoom-in"
+            data-aos-duration="1100"
             className="ff_gilroy_bold fw-bold fs_4xl text-light InClass-mx-width
            text-center mx-auto mb-4"
           >
@@ -20,7 +26,11 @@ const OurProducts = () => {
           <div className="our_max_width mx-auto">
             <Row className="mt-5 justify-content-center">
               <Col md="6" lg="4">
-                <div className="d-flex text-center justify-content-center h-100">
+                <div
+                  data-aos="fade-left"
+                  data-aos-duration="1100"
+                  className="d-flex text-center justify-content-center h-100"
+                >
                   <div className="Products_card mx-3">
                     <img className="mb-1" src={eSIM_img} alt="eSIM_img" />
                     <h3 className="ff_gilroy_SemiBold fw-semibold fs_xxl tc_primary mt-4">
@@ -40,7 +50,11 @@ const OurProducts = () => {
                 </div>
               </Col>
               <Col md="6" lg="4" className="mt-4 mt-md-0">
-                <div className="d-flex text-center justify-content-center h-100">
+                <div
+                  data-aos="zoom-in"
+                  data-aos-duration="1100"
+                  className="d-flex text-center justify-content-center h-100"
+                >
                   <div className="Products_card mx-3">
                     <img className="mb-1" src={SIMCard} alt="SIMCard" />
                     <h3 className="ff_gilroy_SemiBold fw-semibold fs_xxl tc_primary mt-4">
@@ -60,7 +74,11 @@ const OurProducts = () => {
                 </div>
               </Col>
               <Col md="6" lg="4" className="mt-4 mt-lg-0">
-                <div className="d-flex text-center justify-content-center h-100">
+                <div
+                  data-aos="fade-right"
+                  data-aos-duration="1100"
+                  className="d-flex text-center justify-content-center h-100"
+                >
                   <div className="Products_card mx-3">
                     <img className="mb-1" src={TMobile} alt="TMobile" />
                     <h3 className="ff_gilroy_SemiBold fw-semibold fs_xxl tc_primary mt-4">

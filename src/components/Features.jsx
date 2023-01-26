@@ -6,8 +6,18 @@ const Features = () => {
     <>
       <section className="pb-5">
         <Container className="pb-5">
-          <h3 className="ff_gilroy_bold fw-bold fs_xxl tc_danger">Features</h3>
-          <h2 className="ff_gilroy_bold fw-bold fs_4xl text-light InClass-mx-width">
+          <h3
+            data-aos="zoom-in"
+            data-aos-duration="1100"
+            className="ff_gilroy_bold fw-bold fs_xxl tc_danger"
+          >
+            Features
+          </h3>
+          <h2
+            data-aos="zoom-in"
+            data-aos-duration="1100"
+            className="ff_gilroy_bold fw-bold fs_4xl text-light InClass-mx-width"
+          >
             Best-in-class Cyber safety for commercial and personal.
           </h2>
 
@@ -22,7 +32,11 @@ const Features = () => {
                   key={value.id}
                   className="mt-4"
                 >
-                  <div className="Features_card p-3 px-4 h-100 card_hover">
+                  <div
+                    data-aos="zoom-in"
+                    data-aos-duration="1100"
+                    className="Features_card p-3 px-4 h-100 card_hover"
+                  >
                     <img src={value.Img} alt="yourData" />
                     <div className="py-3">
                       <div className="d-flex justify-content-between">

@@ -13,7 +13,7 @@ const ProtecturoNav = () => {
   }
   return (
     <div>
-      <Nav className="py-3 bg-black">
+      <Nav className="py-3  z_index_10 position-relative z_index_10">
         <Container
         // data-aos="zoom-in"
         // data-aos-duration="1200"
