@@ -71,6 +71,11 @@
   top: 24px;
 }
 
+.our_benifit_dot {
+  bottom: -81px;
+  right: -60px;
+  max-width: 101px;
+}
 
 @media (min-width:768px) {
   .w_50 {
