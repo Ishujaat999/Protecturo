@@ -42,6 +42,10 @@
     text-align: center;
 }
 
+.Our_Standards_img {
+    mix-blend-mode: luminosity;
+}
+
 @media (max-width:575.98px) {
     :root {
         --fs_4xl: 24px;
@@ -59,7 +63,7 @@
 
 @media (min-width:768px) {
     :root {
-        --fs_4xl: 56px;
+        --fs_4xl: 51px;
     }
 
     .w_50 {
