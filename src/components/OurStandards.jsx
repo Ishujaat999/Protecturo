@@ -23,7 +23,11 @@ const OurStandards = () => {
   }, []);
   return (
     <>
-      <section id="hearedListing" className=" bg-black mt_m_1 py-5">
+      <section
+        id="hearedListing"
+        className=" bg-black mt_m_1 py-5 position-relative  overflow-hidden"
+      >
+        <div className="blur d-none d-md-block position-absolute start-0 top-50"></div>
         <Container>
           <p
             data-aos="fade-right"

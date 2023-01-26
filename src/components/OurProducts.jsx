@@ -3,10 +3,20 @@ import { Col, Container, Row } from "react-bootstrap";
 import eSIM_img from "../assets/images/png/eSIM_img.png";
 import SIMCard from "../assets/images/png/SIMCard.png";
 import TMobile from "../assets/images/png/TMobile.png";
+import freelogo from "../assets/images/svg/free-logo.svg";
 const OurProducts = () => {
   return (
     <>
-      <section id="Products" className="my-5 py-5 overflow-hidden">
+      <section
+        id="Products"
+        className="mt-5 py-5 overflow-hidden position-relative"
+      >
+        <img
+          className="position-absolute d-none d-md-block  header_logo_positioning"
+          src={freelogo}
+          alt="freelogo"
+        />
+        <div className="blur d-none d-md-block position-absolute start-0 top-50"></div>
         <Container>
           <h3
             data-aos="zoom-in"
@@ -49,7 +59,7 @@ const OurProducts = () => {
                   </div>
                 </div>
               </Col>
-              <Col md="6" lg="4" className="mt-4 mt-md-0" >
+              <Col md="6" lg="4" className="mt-4 mt-md-0">
                 <div
                   data-aos="zoom-in"
                   data-aos-duration="1100"

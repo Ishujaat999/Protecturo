@@ -2,11 +2,19 @@ import React from "react";
 import { Container, Col, Row } from "react-bootstrap";
 import path_14 from "../assets/images/png/path14.png";
 import SliderDummy from "./SliderDummy";
+import freelogo from "../assets/images/svg/free-logo.svg";
+// import freelogo from "../assets/images/svg/free-logo.svg";
+
 const OurBenefits = () => {
   return (
     <>
       <section className=" bg-black py-5 position-relative overflow-hidden">
-        <div className="blur position-absolute start-0 bottom-0"></div>
+        <div className="blur d-none d-lg-block position-absolute benifit_blur"></div>
+        <img
+          className="position-absolute d-none d-md-block  w-25 top-25 left-50"
+          src={freelogo}
+          alt="freelogo"
+        />
         <Container>
           <Row className=" align-items-center flex-column-reverse  flex-lg-row justify-content-center justify-content-lg-start">
             <Col

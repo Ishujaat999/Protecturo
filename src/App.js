@@ -39,18 +39,21 @@ function App() {
     <>
       {loading && <Preloader />}
 
-      <Header />
-      <OurBenefits />
-      <OurStandards />
-      <Connectivity />
-      <OurProducts />
-      <HowIt />
-      <OurBenifit />
-      <Features />
-      <StayConnect />
-      <Faq />
-      <Global />
-      <Footer />
+      <div class="overflow-hidden">
+        <Header />
+        <OurBenefits />
+        <OurStandards />
+        <Connectivity />
+        <OurProducts />
+        <OurBenifit />
+        <HowIt />
+
+        <Features />
+        <StayConnect />
+        <Faq />
+        <Global />
+        <Footer />
+      </div>
     </>
   );
 }

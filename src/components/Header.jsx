@@ -83,22 +83,22 @@ const Header = () => {
   };
   return (
     <>
-      <section className="d-flex min-vh-100 flex-column bg-black overflow-hidden*">
+      <section className="d-flex min-vh-100 flex-column bg-black overflow-hidden position-relative">
         <img
-          className="position-absolute d-none d-md-block  w-25 logo_header_corner"
+          className="position-absolute d-none d-md-block  w-25 logo_header_corner z-index-1"
           src={freelogo}
           alt="freelogo"
         />
         <ProtecturoNav />
         <div className="flex-grow-1 py-4 d-flex align-items-center  ">
-          {/* <img
+          <img
             className="position-absolute d-none d-md-block  header_logo_positioning"
             src={freelogo}
             alt="freelogo"
-          /> */}
+          />
 
-          {/* <div className="blur d-none d-md-block position-absolute start-0 top-50"></div> */}
-          {/* <div className="blur d-none d-md-block position-absolute header-blur"></div> */}
+          <div className="blur d-none d-md-block position-absolute start-0 top-50"></div>
+          <div className="blur d-none d-md-block position-absolute header-blur"></div>
           <Container>
             <Row className="justify-content-between position-relative">
               <div className="col-lg-7 col-12">

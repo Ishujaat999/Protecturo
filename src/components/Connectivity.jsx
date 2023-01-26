@@ -7,7 +7,8 @@ import instant_img from "../assets/images/png/instant_img.png";
 function Connectivity() {
   return (
     <>
-      <section className="my-5 py-5">
+      <section className=" py-5 position-relative overflow-hidden">
+        <div className="blur d-none d-lg-block position-absolute benifit_blur"></div>
         <Container>
           <div className="connectivity_bg py-5 px-2 px-sm-5 position-relative">
             <Row
