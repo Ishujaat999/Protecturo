@@ -9,31 +9,39 @@ function Connectivity() {
     <>
       <section>
         <Container>
-          <div className="connectivity_bg p-3 p-sm-5 position-relative">
+          <div className="connectivity_bg px-2 px-sm-5 position-relative">
             <Row
               className="justify-content-between align-items-center 
-            flex-column-reverse flex-lg-row"
+             flex-lg-row"
             >
-              <Col lg="6">
-                <h2 className="ff_gilroy_bold fw-bold fs_4xl tc_secondary mt-4 mt-lg-0">
-                  Instant connectivity with the Protecturo app
-                </h2>
-                <p className="ff_gilroy_Medium fw_medium fs_xl tc_info my-5">
-                  The ideal for the 21st century roadwarrior. The Protecturo app
-                  lets you to grab a single data plan where and when you want -
-                  at home or in any of our 190+ destinations. Select a plan from
-                  the app, download an
-                  <span className=" fw-bold tc_warning">eSIM</span>, and you'll
-                  connect on the spot, on physical SIM card required.
-                </p>
-                <img
-                  className="me-3 mb-xl-0"
-                  src={google_play}
-                  alt="google_play"
-                />
-                <img className="" src={app_store} alt="app_store" />
+              <Col md="6">
+                <div className="py-4">
+                  <h2 className="ff_gilroy_bold fw-bold fs_4xl tc_secondary mt-4 mt-lg-0">
+                    Instant connectivity with the Protecturo app
+                  </h2>
+                  <p className="ff_gilroy_Medium fw_medium fs_xl tc_info my-md-5">
+                    The ideal for the 21st century roadwarrior. The Protecturo
+                    app lets you to grab a single data plan where and when you
+                    want - at home or in any of our 190+ destinations. Select a
+                    plan from the app, download an
+                    <span className=" fw-bold tc_warning">eSIM</span>, and
+                    you'll connect on the spot, on physical SIM card required.
+                  </p>
+                  <div className="text-center text-md-start">
+                    <img
+                      className="me-3 store_width mb-xl-0"
+                      src={google_play}
+                      alt="google_play"
+                    />
+                    <img
+                      className="store_width"
+                      src={app_store}
+                      alt="app_store"
+                    />
+                  </div>
+                </div>
               </Col>
-              <Col lg="6" xl="5">
+              <Col md="6" xl="5">
                 <img
                   className="instant_img"
                   src={instant_img}
