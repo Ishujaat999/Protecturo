@@ -19,7 +19,7 @@ const OurBenifit = () => {
         },
       })
       .from(".myBox", {
-        clipPath: "polygon(100% 0, 100% 0%, 100% 100%, 100% 100%)",
+        // clipPath: "polygon(100% 0, 100% 0%, 100% 100%, 100% 100%)",
         duration: 0.5,
         // markers: false,
       });
@@ -30,7 +30,7 @@ const OurBenifit = () => {
         <div className="row align-items-center flex-column-reverse flex-xl-row">
           <div className="col-xl-6">
             <div className="text-center text-xl-start">
-              <p className="ff_gilroy_bold fs_xxl tc_danger  mb-0">
+              <p className="ff_gilroy_bold fs_xxl tc_danger mt-5 mt-lg-0  mb-0">
                 Our product benefits
               </p>
               <h2 className="ff_gilroy_bold fs_4xl tc_secondary   mt-2  ">
@@ -46,7 +46,7 @@ const OurBenifit = () => {
               <div className="col-12 col-sm-6 mb-5">
                 <div className="text-center text-xl-start">
                   <img src={benifit1} alt="connected" />
-                  <h2 className="ff_gilroy_SemiBold fs_xxl tc_secondary mt-4">
+                  <h2 className="ff_gilroy_SemiBold fs_xxl tc_secondary mt-3">
                     Stay connected
                   </h2>
                   <p className="ff_gilroy_Regular fs_sm tc_info mb-0 mt-2 ">
@@ -57,7 +57,7 @@ const OurBenifit = () => {
               <div className="col-12 col-sm-6 mb-5">
                 <div className="text-center text-xl-start">
                   <img src={benifit2} alt="connected" />
-                  <h2 className="ff_gilroy_SemiBold fs_xxl tc_secondary mt-4">
+                  <h2 className="ff_gilroy_SemiBold fs_xxl tc_secondary mt-3">
                     International
                   </h2>
                   <p className="ff_gilroy_Regular fs_sm tc_info mb-0 mt-2 ">
@@ -69,7 +69,7 @@ const OurBenifit = () => {
               <div className="col-12 col-sm-6 mt-sm-5 ">
                 <div className="text-center text-xl-start">
                   <img src={benifit3} alt="connected" />
-                  <h2 className="ff_gilroy_SemiBold fs_xxl tc_secondary mt-4">
+                  <h2 className="ff_gilroy_SemiBold fs_xxl tc_secondary mt-3">
                     Ease to get
                   </h2>
                   <p className="ff_gilroy_Regular fs_sm tc_info mb-0 mt-2 ">
@@ -80,7 +80,7 @@ const OurBenifit = () => {
               <div className="col-12 col-sm-6 mt-5">
                 <div className="text-center text-xl-start">
                   <img src={benifit4} alt="connected" />
-                  <h2 className="ff_gilroy_SemiBold fs_xxl tc_secondary mt-4">
+                  <h2 className="ff_gilroy_SemiBold fs_xxl tc_secondary mt-3">
                     Data plans
                   </h2>
                   <p className="ff_gilroy_Regular fs_sm tc_info mb-0 mt-2 ">
