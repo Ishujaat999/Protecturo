@@ -80,6 +80,16 @@
   color: #d41700 !important;
   transition: 300ms linear;
 }
+.social_icons {
+  transition: 100ms linear;
+}
+.social_icons:hover {
+  transform: scale(1.1);
+  transition: 100ms linear;
+}
+.pointer {
+  cursor: pointer;
+}
 .cyber_img {
   bottom: 90%;
   z-index: -1;

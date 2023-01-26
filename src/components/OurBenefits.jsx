@@ -46,7 +46,7 @@ const OurBenefits = () => {
               <h2
                 data-aos="fade-left"
                 data-aos-duration="1100"
-                className=" fw-bold fs_4xl text-light py-2 ff_gilroy_bold "
+                className=" fs_4xl text-light py-2 ff_gilroy_bold "
               >
                 Take control of <br></br> your cellular connectivity
               </h2>
