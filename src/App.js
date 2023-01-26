@@ -17,7 +17,9 @@ import Faq from "./components/Faq";
 import Connectivity from "./components/Connectivity";
 import OurProducts from "./components/OurProducts";
 import { useEffect, useState } from "react";
+import HowIt from "./components/HowIt";
 import OurBenifit from "./components/OurBenifit";
+
 function App() {
   const [loading, setLoading] = useState(true);
   useEffect(() => {
@@ -34,6 +36,8 @@ function App() {
       <OurStandards />
       <Connectivity />
       <OurProducts />
+      <HowIt />
+      <OurBenifit />
       <Features />
       <StayConnect />
       <Faq />

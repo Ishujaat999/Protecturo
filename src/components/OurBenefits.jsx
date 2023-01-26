@@ -46,8 +46,8 @@ const OurBenefits = () => {
                     for your deployment.
                   </p>
                 </div>
-                <div className=" w_50 mt-3 ">
-                  <h2 className=" fw-semibold text-light fs_xxl">
+                <div className=" w_50 mt-3 ps-lg-4 ps-xl-0">
+                  <h2 className=" fw-semibold text-light fs_xxl ">
                     Manage connectivity
                   </h2>
                   <p className=" fw_medium  fs_sm tc_info max_width_250">
@@ -65,7 +65,7 @@ const OurBenefits = () => {
                     contact for support no matter where the SIMs are deployed.
                   </p>
                 </div>
-                <div className=" w_50 mt-3 ">
+                <div className=" w_50 mt-3 ps-lg-4 ps-xl-0">
                   <h2 className=" fw-semibold text-light fs_xxl">
                     Scale infinitely with ease
                   </h2>

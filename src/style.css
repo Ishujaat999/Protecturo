@@ -32,28 +32,59 @@
 }
 
 .slick-dots {
-    position: absolute;
-    bottom: -25px;
-    display: block;
-    width: 100%;
-    padding: 0;
-    margin-top: 20px !important;
-    list-style: none;
-    text-align: center;
+  position: absolute;
+  bottom: -25px;
+  display: block;
+  width: 100%;
+  padding: 0;
+  margin-top: 20px !important;
+  list-style: none;
+  text-align: center;
 }
 
 .Our_Standards_img {
-    mix-blend-mode: luminosity;
+  mix-blend-mode: luminosity;
 }
 
-@media (min-width:768px) {
-    .w_50 {
-        width: 50%;
-    }
+.lh_lg {
+  line-height: 75px;
+}
 
-    .max_width_750 {
-        max-width: 750px;
-    }
+.max_width_170 {
+  max-width: 170px;
+}
+
+.max_width_195 {
+  max-width: 195px;
+}
+
+.line_position {
+  left: 75px;
+  top: 22px;
+}
+
+.max_width_80 {
+  max-width: 80%;
+}
+
+.max_width_70 {
+  max-width: 70%;
+}
+
+.line2_position {
+  left: -65%;
+  top: 24px;
+}
+
+
+@media (min-width:768px) {
+  .w_50 {
+    width: 50%;
+  }
+
+  .max_width_750 {
+    max-width: 750px;
+  }
 }
 
 .slider_parent {
