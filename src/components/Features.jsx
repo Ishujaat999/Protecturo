@@ -1,10 +1,16 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import FeatureData from "../FeatureData";
+import cyber from "../assets/images/png/cyber.png";
 const Features = () => {
   return (
     <>
-      <section className="pb-5 position-relative overflow-hidden">
+      <section className="pb-5 position-relative">
+        <img
+          className="position-absolute d-none d-lg-inline-block end-0 cyber_img"
+          src={cyber}
+          alt="cyber"
+        />
         <div className="blur d-none d-md-block position-absolute end-0 top-25"></div>
         <Container className="pb-5">
           <h3
