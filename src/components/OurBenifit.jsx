@@ -18,7 +18,7 @@ const OurBenifit = () => {
           // markers: false,
         },
       })
-      .from(".myBox", {
+      .from("#myBox", {
         // clipPath: "polygon(100% 0, 100% 0%, 100% 100%, 100% 100%)",
         duration: 0.5,
         // markers: false,
@@ -29,7 +29,11 @@ const OurBenifit = () => {
       <div className="container">
         <div className="row align-items-center flex-column-reverse flex-xl-row">
           <div className="col-xl-6">
-            <div className="text-center text-xl-start">
+            <div
+              data-aos="fade-right"
+              data-aos-duration="1100"
+              className="text-center text-xl-start"
+            >
               <p className="ff_gilroy_bold fs_xxl tc_danger mt-5 mt-lg-0  mb-0">
                 Our product benefits
               </p>
@@ -44,7 +48,11 @@ const OurBenifit = () => {
             </div>
             <div className="row align-items-center mt-5">
               <div className="col-12 col-sm-6 mb-5">
-                <div className="text-center text-xl-start">
+                <div
+                  data-aos="zoom-in"
+                  data-aos-duration="1100"
+                  className="text-center text-xl-start"
+                >
                   <img src={benifit1} alt="connected" />
                   <h2 className="ff_gilroy_SemiBold fs_xxl tc_secondary mt-3">
                     Stay connected
@@ -55,7 +63,11 @@ const OurBenifit = () => {
                 </div>
               </div>
               <div className="col-12 col-sm-6 mb-5">
-                <div className="text-center text-xl-start">
+                <div
+                  data-aos="zoom-in"
+                  data-aos-duration="1100"
+                  className="text-center text-xl-start"
+                >
                   <img src={benifit2} alt="connected" />
                   <h2 className="ff_gilroy_SemiBold fs_xxl tc_secondary mt-3">
                     International
@@ -67,7 +79,11 @@ const OurBenifit = () => {
                 </div>
               </div>
               <div className="col-12 col-sm-6 mt-sm-5 ">
-                <div className="text-center text-xl-start">
+                <div
+                  data-aos="zoom-in"
+                  data-aos-duration="1100"
+                  className="text-center text-xl-start"
+                >
                   <img src={benifit3} alt="connected" />
                   <h2 className="ff_gilroy_SemiBold fs_xxl tc_secondary mt-3">
                     Ease to get
@@ -78,7 +94,11 @@ const OurBenifit = () => {
                 </div>
               </div>
               <div className="col-12 col-sm-6 mt-5">
-                <div className="text-center text-xl-start">
+                <div
+                  data-aos="zoom-in"
+                  data-aos-duration="1100"
+                  className="text-center text-xl-start"
+                >
                   <img src={benifit4} alt="connected" />
                   <h2 className="ff_gilroy_SemiBold fs_xxl tc_secondary mt-3">
                     Data plans
@@ -91,7 +111,12 @@ const OurBenifit = () => {
             </div>
           </div>
           <div className="col-xl-6">
-            <div className="myBox">
+            <div
+              data-aos="fade-left"
+              data-aos-duration="1100"
+              className="myBox"
+              id="myBox"
+            >
               <img className="w-100" src={benifit} alt="mask " />
             </div>
           </div>

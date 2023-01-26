@@ -141,10 +141,11 @@
   border: 1px solid transparent;
   transition: all 300ms linear;
   display: inline-block;
+
 }
 
 .priamrybtn:hover {
-  background: black;
+  background: transparent;
   border: 1px solid #D41700;
   border-radius: 60px;
   color: #D41700;
@@ -220,11 +221,13 @@
   filter: blur(150px);
   width: 550px;
   height: 550px;
+  z-index: -1;
 }
 
 .header-blur {
   top: -25%;
   right: -15%;
+  z-index: 0;
 }
 
 
@@ -287,7 +290,7 @@
   z-index: -1;
 }
 
-/* .myDemoBox {
+.myDemoBox {
   width: 100%;
   height: 100%;
   overflow: hidden;
@@ -297,13 +300,13 @@
 
 }
 
-.myBox {
+#myBox {
   overflow: hidden;
   background-color: black;
   clip-path: polygon(100% 0, 0 0, 0 100%, 100% 100%);
 
 
-} */
+}
 
 /* pre-loader */
 
