@@ -28,6 +28,7 @@ function App() {
     setTimeout(() => {
       setLoading(false);
       document.body.classList.remove("fix-screen");
+      // document.body.classList.add("overflow_x_hidden");
     }, 2400);
   }, []);
   AOS.init({
@@ -37,6 +38,7 @@ function App() {
   return (
     <>
       {loading && <Preloader />}
+
       <Header />
       <OurBenefits />
       <OurStandards />

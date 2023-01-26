@@ -5,7 +5,8 @@ import SliderDummy from "./SliderDummy";
 const OurBenefits = () => {
   return (
     <>
-      <section className=" bg-black py-5 overflow-hidden">
+      <section className=" bg-black py-5 position-relative overflow-hidden">
+        <div className="blur position-absolute start-0 bottom-0"></div>
         <Container>
           <Row className=" align-items-center flex-column-reverse  flex-lg-row justify-content-center justify-content-lg-start">
             <Col

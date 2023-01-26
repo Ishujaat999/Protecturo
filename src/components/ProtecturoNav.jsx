@@ -12,8 +12,8 @@ const ProtecturoNav = () => {
     document.body.classList.remove("overflow-hidden");
   }
   return (
-    <div>
-      <Nav className="py-3  z_index_10 position-relative z_index_10">
+    <div className="position-relative z_index_10">
+      <Nav className="py-3   ">
         <Container
         // data-aos="zoom-in"
         // data-aos-duration="1200"
