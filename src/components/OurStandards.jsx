@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import { Container, Col, Row } from "react-bootstrap";
-import Our_Standards from "../assets/images/png/OurStandards.png";
+import Our_Standards from "../assets/images/png/OurStandards.png.png";
 import dote_get from "../assets/images/png/doteGetSarted.png";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import gsap from "gsap";
