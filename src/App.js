@@ -21,6 +21,7 @@ import OurBenifit from "./components/OurBenifit";
 
 import AOS from "aos";
 import "aos/dist/aos.css";
+import BackToTop from "./components/BackToTop";
 
 function App() {
   const [loading, setLoading] = useState(true);
@@ -47,12 +48,12 @@ function App() {
         <OurProducts />
         <OurBenifit />
         <HowIt />
-
         <Features />
         <StayConnect />
         <Faq />
         <Global />
         <Footer />
+        <BackToTop />
       </div>
     </>
   );

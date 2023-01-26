@@ -125,13 +125,13 @@ const Header = () => {
                   <div className="pt-4 pb-3">
                     <img
                       onClick={() => slider.current.slickPrev()}
-                      className="prevArrow cursor-pointer"
+                      className="prevArrow pointer"
                       src={west}
                       alt=""
                     />
                     <img
                       onClick={() => slider.current.slickNext()}
-                      className="ms-3 nextArrow cursor-pointer"
+                      className="ms-3 nextArrow pointer"
                       src={east}
                       alt=""
                     />

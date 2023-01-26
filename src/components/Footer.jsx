@@ -24,16 +24,16 @@ function Footer() {
               </p>
               <div className="d-none d-md-inline-block mb-4 mb-md-0">
                 <div className="d-flex gap-3 mt-4 mb-lg-5">
-                  <a className=" tranform_scale d-inline-block" href="">
+                  <a className=" social_icons d-inline-block" href="">
                     <img src={telegram} alt="telegram " />
                   </a>
-                  <a className=" tranform_scale d-inline-block" href="">
+                  <a className=" social_icons d-inline-block" href="">
                     <img src={facebook} alt="facebook" />
                   </a>
-                  <a className=" tranform_scale d-inline-block" href="">
+                  <a className=" social_icons d-inline-block" href="">
                     <img src={insta} alt="insta" />
                   </a>
-                  <a className=" tranform_scale d-inline-block" href="">
+                  <a className=" social_icons d-inline-block" href="">
                     <img src={twiter} alt="twiter" />
                   </a>
                 </div>

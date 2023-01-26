@@ -5,7 +5,7 @@ import cyber from "../assets/images/png/cyber.png";
 const Features = () => {
   return (
     <>
-      <section className="pb-5 position-relative">
+      <section className="pb-5 position-relative" id="Features">
         <img
           className="position-absolute d-none d-lg-inline-block end-0 cyber_img"
           src={cyber}
