@@ -212,3 +212,36 @@
   text-fill-color: transparent;
   font-size: 36px;
 }
+
+.blur {
+  background: linear-gradient(44.01deg, #D41700 -6.45%, #7F0011 136.55%);
+  opacity: 0.45;
+  filter: blur(150px);
+  width: 550px;
+  height: 550px;
+}
+
+.header-blur {
+  top: -25%;
+  right: -15%;
+}
+
+
+@media (min-width: 1000px) {
+  .position-lg-absolute {
+    position: absolute;
+  }
+
+
+
+  .w-80 {
+    width: 75%;
+  }
+}
+
+@media (max-width: 1000px) {
+  .mx_auto {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}

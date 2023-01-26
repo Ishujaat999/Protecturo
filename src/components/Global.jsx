@@ -4,22 +4,32 @@ import GlobalImg from "../assets/images/png/Global.png";
 const Global = () => {
   return (
     <>
-      <section>
-        <Container>
-          <Row className="align-items-center">
-            <Col lg="7">
-              <h2 className="fw-bold fs_4xl tc_secondary">
+      <section className="global_bg pt-xxl-5 mb-5">
+        <Container className="py-xxl-5">
+          <Row className="align-items-center position-relative py-xxl-4 mb-5">
+            <Col md="6" lg="8">
+              <h2 className="ff_gilroy_bold fw-bold fs_4xl tc_secondary pe-5 pe-xxl-0">
                 Global IoT connectivity to deploy and scale your solutions
               </h2>
-              <p className="fw_medium fs_xl tc_info">
+              <p className="ff_gilroy_Medium fw_medium fs_xl tc_info mt-4 pb-2 pe-5">
                 If you're serious about getting your IoT build off the ground -
                 Protecturo is ready to make it quick, frictionless and smart.
                 Get started today with a free SIM & data, or explore enterprise
                 options with our team of IoT experts.
               </p>
+              <button
+                className="ff_Montserrat fw_medium fs_sm
+               bg_danger border-0 text-white  rounded-pill my-button mt-5"
+              >
+                Get started
+              </button>
             </Col>
-            <Col lg="5">
-              <img className="w-100" src={GlobalImg} alt="GlobalImg" />
+            <Col md="6" lg="4">
+              <img
+                className="position_xxl_absolute end_xxl_0 global_img w_max_xxl_100"
+                src={GlobalImg}
+                alt="GlobalImg"
+              />
             </Col>
           </Row>
         </Container>

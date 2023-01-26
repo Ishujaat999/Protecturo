@@ -13,7 +13,7 @@ const ProtecturoNav = () => {
   }
   return (
     <div>
-      <Nav className="py-1 bg-black">
+      <Nav className="py-3 bg-black">
         <Container
         // data-aos="zoom-in"
         // data-aos-duration="1200"
@@ -26,7 +26,7 @@ const ProtecturoNav = () => {
             <ul className="ps-0 mb-0 list-unstyled d-none d-lg-flex gap-4 align-items-center">
               <li>
                 <a
-                  className="d-inline-block ff_gilroy tc_info nav_links "
+                  className="d-inline-block ff_gilroy_SemiBold tc_info nav_links "
                   href="#Benefits"
                 >
                   Benefits
@@ -34,7 +34,7 @@ const ProtecturoNav = () => {
               </li>
               <li>
                 <a
-                  className="d-inline-block ff_gilroy tc_info nav_links "
+                  className="d-inline-block ff_gilroy_SemiBold tc_info nav_links "
                   href="#Privacy"
                 >
                   Privacy
@@ -42,7 +42,7 @@ const ProtecturoNav = () => {
               </li>
               <li>
                 <a
-                  className="d-inline-block ff_gilroy tc_info nav_links "
+                  className="d-inline-block ff_gilroy_SemiBold tc_info nav_links "
                   href="#Products"
                 >
                   Products
@@ -50,7 +50,7 @@ const ProtecturoNav = () => {
               </li>
               <li>
                 <a
-                  className="d-inline-block ff_gilroy tc_info nav_links "
+                  className="d-inline-block ff_gilroy_SemiBold tc_info nav_links "
                   href="#App"
                 >
                   App
@@ -58,7 +58,7 @@ const ProtecturoNav = () => {
               </li>
               <li>
                 <a
-                  className="d-inline-block ff_gilroy tc_info nav_links "
+                  className="d-inline-block ff_gilroy_SemiBold tc_info nav_links "
                   href="#Features"
                 >
                   Features
@@ -66,7 +66,7 @@ const ProtecturoNav = () => {
               </li>
               <li>
                 <a
-                  className="d-inline-block ff_gilroy tc_info nav_links "
+                  className="d-inline-block ff_gilroy_SemiBold tc_info nav_links "
                   href="#FAQs"
                 >
                   FAQs

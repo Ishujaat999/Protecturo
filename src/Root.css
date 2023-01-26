@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap");
+
 * {
   padding: 0;
   margin: 0;
@@ -19,18 +20,18 @@
   --fs_2xl: 45px;
   --fs_3xl: 56px;
   --fs_4xl: 65px;
-  --fs_5xl: 85px;
+  --fs_5xl: 50px;
   /* === Font Weight === */
   --fw_medium: 500;
   /* === Font Family === */
   --ff_Montserrat: "Montserrat", sans-serif;
-
   /* === Text Color === */
   --tc_primary: #a6a6a6;
   --tc_secondary: #e1e1e1;
   --tc_danger: #841002;
   --tc_body: #f2f2f2;
   --tc_info: #878787;
+  --tc_warning: #c51304;
   /* === Background Color === */
   --bg_primary: #a6a6a6;
   --bg_secondary: #e1e1e1;
@@ -38,14 +39,26 @@
   --bg_body: #f2f2f2;
   --bg_info: #878787;
 }
+
 @font-face {
-  font-family: "Gilroy";
+  font-family: "Gilroy-bold";
   src: url(./assets/font/gilroy/Gilroy-Bold.ttf);
-  /* src: url(./assets/font/gilroy/Gilroy-SemiBold.ttf);
-  src: url(./assets/font/gilroy/Gilroy-Medium.ttf);
-  src: url(./assets/font/gilroy/Gilroy-Regular.ttf); */
 }
 
+@font-face {
+  font-family: "Gilroy-SemiBold";
+  src: url(./assets/font/gilroy/Gilroy-SemiBold.ttf);
+}
+
+@font-face {
+  font-family: "Gilroy-Medium";
+  src: url(./assets/font/gilroy/Gilroy-Medium.ttf);
+}
+
+@font-face {
+  font-family: "Gilroy-Regular";
+  src: url(./assets/font/gilroy/Gilroy-Regular.ttf);
+}
 /* === Font Size === */
 .fs_xsm {
   font-size: var(--fs_xsm);
@@ -77,38 +90,44 @@
 .fs_5xl {
   font-size: var(--fs_5xl);
 }
-
 /* === Font Weight === */
 .fw_medium {
   font-weight: var(--fw_medium);
 }
 /* === Font Family === */
-.ff_gilroy {
-  font-family: "Gilroy";
+.ff_gilroy_bold {
+  font-family: "Gilroy-bold";
+}
+.ff_gilroy_SemiBold {
+  font-family: "Gilroy-SemiBold";
+}
+.ff_gilroy_Medium {
+  font-family: "Gilroy-Medium";
+}
+.ff_gilroy_Regular {
+  font-family: "Gilroy-Regular";
 }
 .ff_Montserrat {
   font-family: var(--ff_Montserrat);
 }
-
 /* === Text Color === */
 .tc_primary {
   color: var(--tc_primary);
 }
-
 .tc_secondary {
   color: var(--tc_secondary);
 }
-
 .tc_info {
   color: var(--tc_info);
 }
-
 .tc_body {
   color: var(--tc_body);
 }
-
 .tc_danger {
   color: var(--tc_danger);
+}
+.tc_warning {
+  color: var(--tc_warning);
 }
 
 /* === Background Color === */
@@ -132,20 +151,6 @@
   background-color: var(--bg_body);
 }
 
-@media (min-width: 992px) {
-  :root {
-    /* === Font Size === */
-    --fs_sm: 16px;
-    --fs_md: 18px;
-    --fs_lg: 20px;
-    --fs_xl: 22px;
-    --fs_xxl: 24px;
-    --fs_2xl: 45px;
-    --fs_3xl: 56px;
-    --fs_4xl: 65px;
-    --fs_5xl: 85px;
-  }
-}
 @media (min-width: 1200px) {
   :root {
     /* === Font Size === */
@@ -156,8 +161,8 @@
     --fs_xxl: 24px;
     --fs_2xl: 45px;
     --fs_3xl: 56px;
-    --fs_4xl: 65px;
-    --fs_5xl: 70px;
+    --fs_4xl: 62px;
+    --fs_5xl: 65px;
   }
 }
 
@@ -171,7 +176,22 @@
     --fs_xxl: 24px;
     --fs_2xl: 45px;
     --fs_3xl: 56px;
+    --fs_4xl: 62px;
+    --fs_5xl: 75px;
+  }
+}
+
+@media (min-width: 1600px) {
+  :root {
+    /* === Font Size === */
+    --fs_sm: 16px;
+    --fs_md: 18px;
+    --fs_lg: 20px;
+    --fs_xl: 22px;
+    --fs_xxl: 24px;
+    --fs_2xl: 45px;
+    --fs_3xl: 56px;
     --fs_4xl: 65px;
-    --fs_5xl: 85px;
+    --fs_5xl: 75px;
   }
 }
