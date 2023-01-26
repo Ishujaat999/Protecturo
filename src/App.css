@@ -256,7 +256,7 @@
   .page-logo {
     z-index: 100px !important;
     position: relative;
-    width: 100px !important;
+    width: 200px !important;
   }
 }
 
@@ -312,9 +312,7 @@
   height: 100vh;
 }
 
-.hero_gym {
-  width: 10%;
-}
+
 
 .loading {
   height: 100vh;

@@ -21,7 +21,7 @@ const ProtecturoNav = () => {
         >
           <div className="d-flex justify-content-between align-items-center">
             <a href="#" className="d-inline-bloack page-logo">
-              <img src={PageLogo} alt="PageLogo" />
+              <img className="page-logo" src={PageLogo} alt="PageLogo" />
             </a>
             <ul className="ps-0 mb-0 list-unstyled d-none d-lg-flex gap-4 align-items-center">
               <li>
