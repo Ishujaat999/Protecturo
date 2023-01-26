@@ -6,7 +6,7 @@ import FaqsImg from "../assets/images/png/Faqs-img.png";
 function Faq() {
   return (
     <>
-      <section className="position-relative" id="Faq">
+      <section className="position-relative mb-5 pb-5" id="Faq">
         <img className="w-75 d-block d-xl-none" src={FaqsImg} alt="FaqsImg" />
         <Container>
           <Row className=" align-items-center flex-lg-row justify-content-between">

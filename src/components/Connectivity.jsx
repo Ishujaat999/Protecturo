@@ -9,7 +9,7 @@ function Connectivity() {
     <>
       <section>
         <Container>
-          <div className="connectivity_bg px-2 px-sm-5 position-relative">
+          <div className="connectivity_bg py-5 px-2 px-sm-5 position-relative">
             <Row
               className="justify-content-between align-items-center 
              flex-lg-row"
