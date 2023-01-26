@@ -26,7 +26,7 @@ const OurStandards = () => {
       <section id="hearedListing" className=" bg-black mt_m_1 py-5">
         <Container>
           <p className=" fs_xxl  fw-bold tc_danger">Our standards</p>
-          <h2 className=" fw-bold text-light fs_4xl pb-3 pb-md-5">
+          <h2 className=" fw-bold text-light fs_4xl pb-3 pb-md-2">
             Privacy standards <br /> not seen before in telecom
           </h2>
           <Row className=" align-items-center">
@@ -45,7 +45,7 @@ const OurStandards = () => {
               /> */}
             </Col>
             <Col lg="6" className="">
-              <h2 className=" fs_3xl fw-bold text-light pt-5 ">
+              <h2 className=" fs_3xl fw-bold text-light pt-3 pt-lg-5 ">
                 Get started <br /> with Protecturo
               </h2>
               <p className=" fw_medium tc_info fs_md ">
