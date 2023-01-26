@@ -34,7 +34,7 @@ const StayConnect = () => {
             <div className="text-center my-3 z_index_2 position-relative">
               <button
                 className="ff_Montserrat fw_medium fs_sm
-               bg-black border-0 text-white  rounded-pill my-button"
+               bg-black border-0 text-white  rounded-pill my_button"
               >
                 Get started
               </button>

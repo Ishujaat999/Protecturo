@@ -83,16 +83,22 @@ const Header = () => {
   };
   return (
     <>
-      <section className="d-flex min-vh-100 flex-column bg-black overflow-hidden position-relative z_index_10">
+      <section className="d-flex min-vh-100 flex-column bg-black overflow-hidden position-relative">
+        <img
+          className="position-absolute d-none d-md-block  w-25 logo_header_corner z-index-1"
+          src={freelogo}
+          alt="freelogo"
+        />
         <ProtecturoNav />
-        <div className="flex-grow-1 py-4 d-flex align-items-center position-relative z_index_10">
+        <div className="flex-grow-1 py-4 d-flex align-items-center  ">
           <img
-            className="position-absolute header_logo_positioning"
+            className="position-absolute d-none d-md-block  header_logo_positioning"
             src={freelogo}
             alt="freelogo"
           />
-          <div className="blur position-absolute start-0 top-50"></div>
-          <div className="blur position-absolute header-blur"></div>
+
+          <div className="blur d-none d-md-block position-absolute start-0 top-50"></div>
+          <div className="blur d-none d-md-block position-absolute header-blur"></div>
           <Container>
             <Row className="justify-content-between position-relative">
               <div className="col-lg-7 col-12">
@@ -119,13 +125,13 @@ const Header = () => {
                   <div className="pt-4 pb-3">
                     <img
                       onClick={() => slider.current.slickPrev()}
-                      className="prevArrow"
+                      className="prevArrow cursor-pointer"
                       src={west}
                       alt=""
                     />
                     <img
                       onClick={() => slider.current.slickNext()}
-                      className="ms-3 nextArrow"
+                      className="ms-3 nextArrow cursor-pointer"
                       src={east}
                       alt=""
                     />
@@ -235,7 +241,7 @@ const Header = () => {
                   data-aos="fade-left"
                   data-aos-delay="2500"
                   data-aos-duration="1100"
-                  className="w-100 d-flex mt-5 mt-lg-0  align-items-center justify-content-end position-relative z_index_10"
+                  className="w-100 d-flex mt-5 mt-lg-0  align-items-center justify-content-end "
                 >
                   <img className="w-100 " src={mobile} alt="" />
                   <div className="position-absolute w-100 top-0  h-100  start-0">

@@ -28,6 +28,7 @@ function App() {
     setTimeout(() => {
       setLoading(false);
       document.body.classList.remove("fix-screen");
+      // document.body.classList.add("overflow_x_hidden");
     }, 2400);
   }, []);
   AOS.init({
@@ -37,18 +38,22 @@ function App() {
   return (
     <>
       {loading && <Preloader />}
-      <Header />
-      <OurBenefits />
-      <OurStandards />
-      <Connectivity />
-      <OurProducts />
-      <HowIt />
-      <OurBenifit />
-      <Features />
-      <StayConnect />
-      <Faq />
-      <Global />
-      <Footer />
+
+      <div class="overflow-hidden">
+        <Header />
+        <OurBenefits />
+        <OurStandards />
+        <Connectivity />
+        <OurProducts />
+        <OurBenifit />
+        <HowIt />
+
+        <Features />
+        <StayConnect />
+        <Faq />
+        <Global />
+        <Footer />
+      </div>
     </>
   );
 }
