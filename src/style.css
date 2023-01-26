@@ -26,11 +26,6 @@
   z-index: 1;
 }
 
-.dote_img {
-  max-width: 290px;
-  z-index: 2;
-}
-
 .slick-dots {
   position: absolute;
   bottom: -25px;
@@ -76,6 +71,11 @@
   top: 24px;
 }
 
+.our_benifit_dot {
+  bottom: -81px;
+  right: -60px;
+  max-width: 101px;
+}
 
 @media (min-width:768px) {
   .w_50 {
@@ -107,5 +107,23 @@
 
   .scanner_img {
     max-width: 280px;
+  }
+}
+
+@media (min-width:992px) {
+  .dote_img {
+    max-width: 200px;
+    z-index: 2;
+    top: 30%;
+    left: 45%;
+  }
+}
+
+@media (min-width:1200px) {
+  .dote_img {
+    max-width: 290px;
+    z-index: 2;
+    top: 28%;
+    left: 45%;
   }
 }
