@@ -21,6 +21,7 @@ import Faq from "./components/Faq";
 import Connectivity from "./components/Connectivity";
 import OurProducts from "./components/OurProducts";
 import { useEffect, useState } from "react";
+import HowIt from "./components/HowIt";
 function App() {
   const [loading, setLoading] = useState(true);
   useEffect(() => {
@@ -38,6 +39,7 @@ function App() {
       {/* <SliderDummy /> */}
       <Connectivity />
       <OurProducts />
+      <HowIt />
       <Features />
       <StayConnect />
       <Faq />
