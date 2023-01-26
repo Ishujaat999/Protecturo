@@ -10,18 +10,25 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import OurStandards from "./components/OurStandards";
 
+import OurBenefit from "./components/OurBenifit";
 import Features from "./components/Features";
 import StayConnect from "./components/StayConnect";
 import Global from "./components/Global";
 import Footer from "./components/Footer";
+import SliderDummy from "./components/SliderDummy";
+// import OurStandards from "./components/OurStandards";
 import Faq from "./components/Faq";
+// import Connectivity from "./components/Connectivity";
 function App() {
   return (
     <>
       <Header />
       <OurBenefits />
       <OurStandards />
+      {/* <SliderDummy /> */}
       <OurBenefits />
+      <OurBenefit />
+      {/* <Connectivity /> */}
       <Features />
       <StayConnect />
       <Global />

@@ -245,3 +245,20 @@
     margin-right: auto;
   }
 }
+
+
+@media (min-width:1900px) {
+  .w_full_hd_100 {
+    width: 100% !important;
+  }
+}
+
+.position_phone {
+  bottom: -50px;
+}
+
+/* @media (min-width:1200px) {
+  .position_xxl_absolute {
+    position: absolute;
+  }
+} */
