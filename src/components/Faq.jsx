@@ -6,12 +6,12 @@ import FaqsImg from "../assets/images/png/Faqs-img.png";
 function Faq() {
   return (
     <>
-      <section className="position-relative mb-5 pb-5" id="Faq">
+      <section className="position-relative pb-5" id="Faq">
         <Container>
           <Row className="align-items-center justify-content-between">
             <Col md="6" xxl="6" className="text-center">
               <img
-                className="z-index-1 d-none d-md-block d_md_none d_3xxl_none FaqsImg_img d_inline_block 
+                className="z-index-1 d_none d_md_inline_block d_3xxl_none FaqsImg_img 
                 w-50"
                 src={FaqsImg}
                 alt="FaqsImg"
@@ -22,7 +22,13 @@ function Faq() {
                 alt="FaqsImg"
               />
             </Col>
-            <Col md="6" xxl="6">
+            <Col
+              md="6"
+              xxl="6"
+              data-aos="fade-left"
+              data-aos-delay="100"
+              data-aos-duration="1100"
+            >
               <p className=" ff_gilroy_bold fw-bold fs_xxl faq_gradient p-0 m-0 text-center text-xl-start">
                 FAQs
               </p>

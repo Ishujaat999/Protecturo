@@ -10,6 +10,7 @@
 }
 .my-button {
   padding: 15px 31px;
+  transition: 300ms linear;
 }
 .stay-sec:hover {
   box-shadow: 0px 4px 100px rgba(255, 0, 0, 0.5);
@@ -56,14 +57,20 @@
 .d_none {
   display: none;
 }
-.d_inline_block {
-  display: inline-block;
+
+.global_mt {
+  margin-top: 14rem;
+}
+.overflow_x_hidden {
+  overflow-x: hidden;
 }
 .my-button:hover {
   background-color: transparent !important;
   outline: 2px solid #d41700 !important;
   color: #d41700 !important;
+  transition: 300ms linear;
 }
+
 .card_hover:hover {
   animation: shake 0.5s;
   animation-iteration-count: 1s;
@@ -108,17 +115,16 @@
     width: 45%;
   }
 }
-@media (min-width: 768px) {
-  .d_md_none {
-    display: none;
-  }
-}
+
 @media (min-width: 768px) {
   .FaqsImg_img {
     position: absolute;
     top: 50%;
     left: 0;
     transform: translateY(-40%);
+  }
+  .d_md_inline_block {
+    display: inline-block;
   }
 }
 @media (min-width: 992px) {

@@ -236,8 +236,6 @@
     --fs_4xl: 52px;
     --fs_5xl: 75px;
   }
-
-
 }
 
 @media (min-width: 1600px) {
@@ -250,7 +248,7 @@
     --fs_xxl: 24px;
     --fs_2xl: 45px;
     --fs_3xl: 56px;
-    --fs_4xl: 65px;
+    --fs_4xl: 52px;
     --fs_5xl: 75px;
   }
 }

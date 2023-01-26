@@ -5,7 +5,12 @@ import StayVectorStart from "../assets/images/svg/stay-vector-start.svg";
 const StayConnect = () => {
   return (
     <>
-      <section className="my-xl-5 pb-5">
+      <section
+        className="my-xl-5 pb-5 overflow_x_hidden"
+        data-aos="zoom-in"
+        data-aos-delay="100"
+        data-aos-duration="1100"
+      >
         <Container className="pb-5">
           <div className="bg_danger stay-sec rounded-4 p-3 p-md-5 position-relative overflow-hidden mb-5">
             <img

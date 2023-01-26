@@ -6,7 +6,7 @@ import TMobile from "../assets/images/png/TMobile.png";
 const OurProducts = () => {
   return (
     <>
-      <section className="my-5 py-5">
+      <section className="my-5 py-5 overflow_x_hidden">
         <Container>
           <h3
             data-aos="zoom-in"

@@ -4,7 +4,7 @@ import FeatureData from "../FeatureData";
 const Features = () => {
   return (
     <>
-      <section className="pb-5">
+      <section className="pb-5 overflow_x_hidden">
         <Container className="pb-5">
           <h3
             data-aos="zoom-in"
