@@ -25,7 +25,7 @@ function HowIt() {
               <p className=" ff_gilroy fw-bold fs_xl tx_neutral tc_danger">
                 How it works
               </p>
-              <p className=" ff_gilroy fw-bold fs_4xl tx_secondary lh_lg text-light">
+              <p className=" ff_gilroy fw-bold fs_4xl tx_secondary text-light">
                 Learn how does international eSIM work
               </p>
               <Row className=" justify-content-between pt-4">
