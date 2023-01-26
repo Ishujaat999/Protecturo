@@ -20,7 +20,7 @@ const ProtecturoNav = () => {
         // data-aos-delay="3000"
         >
           <div className="d-flex justify-content-between align-items-center">
-            <a href="#" className="d-inline-bloack">
+            <a href="#" className="d-inline-bloack page-logo">
               <img src={PageLogo} alt="PageLogo" />
             </a>
             <ul className="ps-0 mb-0 list-unstyled d-none d-lg-flex gap-4 align-items-center">
@@ -95,7 +95,7 @@ const ProtecturoNav = () => {
               <ul className="ps-0 mb-0 list-unstyled d-flex flex-column gap-4 align-items-center">
                 <li onClick={() => setnav(false)}>
                   <a
-                    className="d-inline-block fs_md fw_regular nav_links text-white "
+                    className="d-inline-block fs_md ff_gilroy_SemiBold tc_info nav_links "
                     href="#Benefits"
                   >
                     Benefits
@@ -103,7 +103,7 @@ const ProtecturoNav = () => {
                 </li>
                 <li onClick={() => setnav(false)}>
                   <a
-                    className="d-inline-block fs_md fw_regular nav_links text-white ff_inter"
+                    className="d-inline-block fs_md ff_gilroy_SemiBold tc_info nav_links ff_inter"
                     href="#Privacy"
                   >
                     Privacy
@@ -111,7 +111,7 @@ const ProtecturoNav = () => {
                 </li>
                 <li onClick={() => setnav(false)}>
                   <a
-                    className="d-inline-block fs_md fw_regular nav_links text-white ff_inter"
+                    className="d-inline-block fs_md ff_gilroy_SemiBold tc_info nav_links ff_inter"
                     href="#Products"
                   >
                     Products
@@ -119,7 +119,7 @@ const ProtecturoNav = () => {
                 </li>
                 <li onClick={() => setnav(false)}>
                   <a
-                    className="d-inline-block fs_md fw_regular nav_links text-white ff_inter"
+                    className="d-inline-block fs_md ff_gilroy_SemiBold tc_info nav_links ff_inter"
                     href="#App"
                   >
                     App
@@ -127,7 +127,7 @@ const ProtecturoNav = () => {
                 </li>
                 <li onClick={() => setnav(false)}>
                   <a
-                    className="d-inline-block fs_md fw_regular nav_links text-white ff_inter"
+                    className="d-inline-block fs_md ff_gilroy_SemiBold tc_info nav_links ff_inter"
                     href="#Features"
                   >
                     Features
@@ -135,20 +135,13 @@ const ProtecturoNav = () => {
                 </li>
                 <li onClick={() => setnav(false)}>
                   <a
-                    className="d-inline-block fs_md fw_regular nav_links text-white ff_inter"
+                    className="d-inline-block fs_md ff_gilroy_SemiBold tc_info nav_links ff_inter"
                     href="#FAQs"
                   >
                     FAQs
                   </a>
                 </li>
               </ul>
-              <a
-                onClick={() => setnav(false)}
-                className="Nav_btn text-white fs_md fw_semibold ff_poppins"
-                href="#"
-              >
-                Log In
-              </a>
             </div>
           </div>
         </Container>

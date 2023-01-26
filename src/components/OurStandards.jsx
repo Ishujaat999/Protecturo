@@ -12,13 +12,13 @@ const OurStandards = () => {
         scrollTrigger: {
           trigger: "#hearedListing",
           start: "top 40%",
-          // markers: false,
+          // markers: true,
         },
       })
       .from(".myDemoBox", {
-        clipPath: "polygon(100% 0, 100% 0%, 100% 100%, 100% 100%)",
-        duration: 0.5,
-        // markers: false,
+        // clipPath: "polygon(100% 0, 100% 0%, 100% 100%, 100% 100%)",
+        duration: 2,
+        // markers: true,
       });
   }, []);
   return (
@@ -33,7 +33,7 @@ const OurStandards = () => {
             <Col md="10" lg="6" xl="5">
               <div className="myDemoBox">
                 <img
-                  className=" w-100 position-relative z_index_m_1 Our_Standards_img"
+                  className=" w-100 position-rel ative z_i ndex_m_1 Our_Standards_img"
                   src={Our_Standards}
                   alt="Our_Standards"
                 />
