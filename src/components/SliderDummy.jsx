@@ -21,7 +21,7 @@ const SliderDummy = () => {
         <Slider {...settings}>
           {sliderData.map((obj, index) => (
             <div>
-              <h2 className=" fw-bold fs_4xl tc_danger fs_sm_25">
+              <h2 className=" fw-bold fs_xxl_30 tc_danger fs_sm_25">
                 {obj.heading}
               </h2>
               <p className="tc_info">{obj.para}</p>

@@ -216,6 +216,10 @@
     --fs_4xl: 62px;
     --fs_5xl: 75px;
   }
+
+  .fs_xxl_30 {
+    font-size: 30px;
+  }
 }
 
 @media (min-width: 1600px) {
