@@ -12,9 +12,15 @@ const OurStandards = () => {
             Privacy standards <br /> not seen before in telecom
           </h2>
           <Row className=" align-items-center">
+<<<<<<< HEAD
             <Col md="10" lg="6" xl="5">
               <img
                 className=" w-100 position-relative z_index_m_1 Our_Standards_img"
+=======
+            <Col md="8" lg="6" xl="5">
+              <img
+                className=" w-100 position-relative z_index_m_1 Our_Standards_img max_width_750"
+>>>>>>> c4210182f397e6aa0bbecba27a1c20ad3c5e7b79
                 src={Our_Standards}
                 alt="Our_Standards"
               />

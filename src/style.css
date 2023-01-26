@@ -48,8 +48,10 @@
 
 @media (max-width:575.98px) {
     :root {
+        --fs_md: 11px;
         --fs_4xl: 24px;
         --fs_xl: 15px;
+        --fs_3xl: 42px;
     }
 }
 
@@ -57,6 +59,8 @@
 
     .fs_sm_25 {
         font-size: 25px;
+        --fs_4xl: 41px;
+        --fs_md: 15px;
     }
 
 }
@@ -68,6 +72,10 @@
 
     .w_50 {
         width: 50%;
+    }
+
+    .max_width_750 {
+        max-width: 750px;
     }
 }
 
